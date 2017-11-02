@@ -1,0 +1,34 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Mi lugar",
+      "coordinates": {
+        "x": 10,
+        "y": 10
+      },
+      "description": "Mi lugar",
+      "floor": "Piso 1"
+    },
+    {
+      "id": 2,
+      "name": "Mi lugar 2",
+      "coordinates": {
+        "x": 10,
+        "y": 10
+      },
+      "description": "Mi lugar 2",
+      "floor": "Piso 2"
+    },
+    {
+      "id": 3,
+      "name": "Mi lugar 3",
+      "coordinates": {
+        "x": 10,
+        "y": 10
+      },
+      "description": "Mi lugar 3",
+      "floor": "Piso 3"
+    }
+  ]
+}
