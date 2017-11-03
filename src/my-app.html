@@ -21,23 +21,30 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/iron-ajax/iron-ajax.html">
 <link rel="import" href="./shared-styles.html">
 <link rel="import" href="./my-icons.html">
+<link rel="import" href="my-icons.html">
+<link rel="import" href="../bower_components/paper-input/paper-input.html">
 
 <dom-module id="my-app">
     <template>
-        <style include="shared-styles"></style>
         <iron-ajax
                 id="ironAjax"
                 url="../assets/places.json"
                 handle-as="json"
                 on-response="handleResponse"
-                debounce-duration="300"></iron-ajax>
+                debounce-duration="300">
+        </iron-ajax>
         <app-drawer-layout fullbleed narrow="{{narrow}}">
             <!-- Drawer content -->
             <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
                 <app-toolbar>Menu</app-toolbar>
                 <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-                    <template is="dom-repeat" items="[[places]]" as="place">
-                        <li>[[place.name]]</li>
+                    <h2>Áreas administrativas</h2>
+                    <template is="dom-repeat" items="[[administrativos]]" as="admin">
+                        <li>[[admin.name]]</li>
+                    </template>
+                    <h2>Áreas de apoyo</h2>
+                    <template is="dom-repeat" items="[[apoyo]]" as="ap">
+                        <li>[[ap.name]]</li>
                     </template>
                 </iron-selector>
             </app-drawer>
@@ -49,6 +56,9 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                     <app-toolbar>
                         <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
                         <div main-title>UUA Localización</div>
+                        <paper-input label="Lugares">
+                            <paper-icon-button slot="suffix" icon="search"></paper-icon-button>
+                        </paper-input>
                     </app-toolbar>
                 </app-header>
                 <!--
