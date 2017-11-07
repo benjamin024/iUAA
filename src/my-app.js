@@ -1,5 +1,6 @@
 (function (customElements) {
     'use strict';
+
     class MyApp extends Polymer.Element {
         static get is() {
             return 'my-app';
@@ -8,8 +9,12 @@
         static get properties() {
             return {
                 areas: {
-                    type: Object,
-                    value: {}
+                    type: Array,
+                    value: []
+                },
+                places: {
+                    type: Array,
+                    value: []
                 }
             };
         }
@@ -24,10 +29,13 @@
             this.set('areas', response.areas);
         }
 
-        toggle() {
+        toggle(event) {
             this.$.collapse.toggle();
+            let places = JSON.parse(event.target.dataset.item);
+            this.set('places', places);
         }
     }
+
     customElements.define(MyApp.is, MyApp);
 })(window.customElements);
 
