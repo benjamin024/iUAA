@@ -41,17 +41,19 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <app-drawer-layout fullbleed narrow="{{narrow}}">
             <!-- Drawer content -->
             <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-                <app-toolbar>Menu</app-toolbar>
-                <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-                    <template is="dom-repeat" items="[[areas]]" as="area">
-                        <paper-button on-tap="toggle">[[area.name]]</paper-button>
-                            <paper-listbox>
+                <div style="height: 100%; overflow: auto;">
+                    <app-toolbar>Menu</app-toolbar>
+                    <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
+                        <template is="dom-repeat" items="[[areas]]" as="area">
+                            <paper-button on-tap="toggle">[[area.name]]</paper-button>
+                            <paper-linkbox>
                                 <template is="dom-repeat" items="[[area.places]]" as="place">
                                     <paper-item>[[place.name]]</paper-item>
                                 </template>
                             </paper-linkbox>
-                    </template>
-                </iron-selector>
+                        </template>
+                    </iron-selector>
+                </div>
             </app-drawer>
 
             <!-- Main content -->
