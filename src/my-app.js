@@ -7,9 +7,9 @@
 
         static get properties() {
             return {
-                places: {
-                    type: Array,
-                    value: []
+                areas: {
+                    type: Object,
+                    value: {}
                 }
             };
         }
@@ -21,8 +21,13 @@
 
         handleResponse() {
             let response = this.$.ironAjax.lastResponse;
-            this.set('places', response.places);
+            this.set('areas', response.areas);
+        }
+
+        toggle() {
+            this.$.collapse.toggle();
         }
     }
     customElements.define(MyApp.is, MyApp);
 })(window.customElements);
+

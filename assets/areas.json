@@ -1,0 +1,644 @@
+{
+  "areas": [
+    {
+      "name": "Áreas administrativas",
+      "places":  [
+        {
+          "id": 1,
+          "name": "Rectoría",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1"
+        },
+        {
+          "id": 2,
+          "name": "Secretaría General",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1"
+        },
+        {
+          "id": 3,
+          "name": "Dirección General de Docencia de Pregrado",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1"
+        },
+        {
+          "id": 4,
+          "name": "Dirección General de Infraestructura Universitaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1"
+        },
+        {
+          "id": 5,
+          "name": "Dirección General de Planeación y Desarrollo",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1"
+        },
+        {
+          "id": 6,
+          "name": "Dirección General de Finanzas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1"
+        },
+        {
+          "id": 7,
+          "name": "Dirección General de Investigación y Posgrado",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1-B"
+        },
+        {
+          "id": 8,
+          "name": "Dirección General de Difusión y Vinculación",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1-B"
+        },
+        {
+          "id": 9,
+          "name": "Galería Universitaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1-B"
+        },
+        {
+          "id": 10,
+          "name": "Dirección General de Servicios Educativos",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "214"
+        },
+        {
+          "id": 11,
+          "name": "Centro de Ciencias Básicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "202"
+        },
+        {
+          "id": 12,
+          "name": "Centro de Ciencias del Diseño y de la Construcción",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "108"
+        },
+        {
+          "id": 13,
+          "name": "Centro de Ciencias Económicas y Administrativas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "32"
+        },
+        {
+          "id": 14,
+          "name": "Centro de Ciencias de la Salud",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "101"
+        },
+        {
+          "id": 15,
+          "name": "Centro de Ciencias Sociales y Humanidades",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "6"
+        }
+      ]
+    },
+    {
+      "name": "Áreas de apoyo",
+      "places": [
+        {
+          "id": 16,
+          "name": "Departamento de Comunicación y Relaciones Públicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "2"
+        },
+        {
+          "id": 17,
+          "name": "Control Escolar y Cajas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1-A"
+        },
+        {
+          "id": 18,
+          "name": "Federación de Estudiantes",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "1-A"
+        },
+        {
+          "id": 19,
+          "name": "Librería Universitaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "9"
+        },
+        {
+          "id": 20,
+          "name": "Tienda de Productos Posta",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "9"
+        },
+        {
+          "id": 21,
+          "name": "Universitienda",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "9"
+        },
+        {
+          "id": 22,
+          "name": "Cafetería Oriente",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "9"
+        },
+        {
+          "id": 23,
+          "name": "Cafetería Poniente",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "47"
+        },
+        {
+          "id": 24,
+          "name": "Radio Universidad",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "14"
+        },
+        {
+          "id": 25,
+          "name": "Caseta del Departamento de Vigilancia",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "63"
+        },
+        {
+          "id": 26,
+          "name": "Caseta Oriente",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "64"
+        },
+        {
+          "id": 27,
+          "name": "Conmutador",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "64"
+        },
+        {
+          "id": 28,
+          "name": "Mensajería",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "64"
+        },
+        {
+          "id": 29,
+          "name": "Biblioteca Central",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "65"
+        },
+        {
+          "id": 30,
+          "name": "Auditorio \"Dr. Pedro de Alba\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "65"
+        },
+        {
+          "id": 31,
+          "name": "Caseta Poniente",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "66"
+        },
+        {
+          "id": 32,
+          "name": "SUAP",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "66"
+        },
+        {
+          "id": 33,
+          "name": "Unidad Médica Didáctica",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "101"
+        },
+        {
+          "id": 34,
+          "name": "Auditorio \"Dr. Alfonso Pérez Romo\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "101"
+        },
+        {
+          "id": 35,
+          "name": "Cafetería Norte",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "122"
+        },
+        {
+          "id": 36,
+          "name": "Cafetería Biomédicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "104C"
+        },
+        {
+          "id": 37,
+          "name": "Sala Expoforo",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "108B"
+        },
+        {
+          "id": 38,
+          "name": "Laboratorio de Simulación del Espacio Arquitectónico",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "108C"
+        },
+        {
+          "id": 39,
+          "name": "Biblioteca Norte",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "109"
+        },
+        {
+          "id": 40,
+          "name": "Laboratorio de Hidraúlica",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "121"
+        },
+        {
+          "id": 41,
+          "name": "Mantenimiento",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "125"
+        },
+        {
+          "id": 42,
+          "name": "Transportes",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "126"
+        },
+        {
+          "id": 43,
+          "name": "Almacén",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "127"
+        },
+        {
+          "id": 44,
+          "name": "Procesos Gráficos",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "127"
+        },
+        {
+          "id": 45,
+          "name": "Inventarios",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "127"
+        },
+        {
+          "id": 46,
+          "name": "Estación Metereológica",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "130"
+        },
+        {
+          "id": 47,
+          "name": "Deportes a Cubierto",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "133"
+        },
+        {
+          "id": 48,
+          "name": "Hospital Veterinario",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "137"
+        },
+        {
+          "id": 49,
+          "name": "Bioterio",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "138"
+        },
+        {
+          "id": 50,
+          "name": "Auditorio \"Ing. Javier Salazar Negrete\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "202"
+        },
+        {
+          "id": 51,
+          "name": "Unidad de Televisión Universitaria \"Pedro Rivas Cuéllar\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "206"
+        },
+        {
+          "id": 52,
+          "name": "Planta de Tratamiento de Aguas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "208"
+        },
+        {
+          "id": 53,
+          "name": "Alberca Universitaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "209"
+        },
+        {
+          "id": 54,
+          "name": "Cafetería Sur",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "210"
+        },
+        {
+          "id": 55,
+          "name": "Fomento al Segundo Idioma y CAADI",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "211"
+        },
+        {
+          "id": 56,
+          "name": "Unidad de Atención e Investigación en Psicología",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "212"
+        },
+        {
+          "id": 57,
+          "name": "Servicios Universitarios de Atención a la Salud",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "213"
+        },
+        {
+          "id": 58,
+          "name": "Salón Universitario de Usos Múltiples",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "219"
+        },
+        {
+          "id": 59,
+          "name": "Unidad de Estudios Avanzados",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "220"
+        },
+        {
+          "id": 60,
+          "name": "Auditorio \"Dr. Ignacio T. Chávez\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "220"
+        },
+        {
+          "id": 61,
+          "name": "Edificio Polivalente \"Dr. Luis Manuel Macías López\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "221"
+        },
+        {
+          "id": 62,
+          "name": "Unidad de Vinculación Universitaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "222"
+        },
+        {
+          "id": 63,
+          "name": "Unidad Didáctica de Gestión del Diseño",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "223"
+        }
+      ]
+    }
+  ]
+}

@@ -22,13 +22,18 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="./shared-styles.html">
 <link rel="import" href="./my-icons.html">
 <link rel="import" href="../bower_components/paper-input/paper-input.html">
+<link rel="import" href="../bower_components/iron-collapse/iron-collapse.html">
+<link rel="import" href="../bower_components/paper-button/paper-button.html">
+<link rel="import" href="../bower_components/paper-listbox/paper-listbox.html">
+<link rel="import" href="../bower_components/paper-card/paper-card.html">
+<link rel="import" href="../bower_components/paper-item/paper-item.html">
 
 <dom-module id="my-app">
     <template>
         <style include="shared-styles"></style>
         <iron-ajax
                 id="ironAjax"
-                url="../assets/places.json"
+                url="../assets/areas.json"
                 handle-as="json"
                 on-response="handleResponse"
                 debounce-duration="300">
@@ -38,13 +43,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
             <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
                 <app-toolbar>Menu</app-toolbar>
                 <iron-selector selected="[[page]]" attr-for-selected="name" class="drawer-list" role="navigation">
-                    <h2>Áreas administrativas</h2>
-                    <template is="dom-repeat" items="[[administrativos]]" as="admin">
-                        <li>[[admin.name]]</li>
-                    </template>
-                    <h2>Áreas de apoyo</h2>
-                    <template is="dom-repeat" items="[[apoyo]]" as="ap">
-                        <li>[[ap.name]]</li>
+                    <template is="dom-repeat" items="[[areas]]" as="area">
+                        <paper-button on-tap="toggle">[[area.name]]</paper-button>
+                            <paper-listbox>
+                                <template is="dom-repeat" items="[[area.places]]" as="place">
+                                    <paper-item>[[place.name]]</paper-item>
+                                </template>
+                            </paper-linkbox>
                     </template>
                 </iron-selector>
             </app-drawer>
