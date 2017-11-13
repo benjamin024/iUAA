@@ -44,7 +44,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 <div style="height: 100%; overflow: auto;">
                     <app-toolbar>Menu</app-toolbar>
                     <template is="dom-repeat" items="[[areas]]" as="area">
-                        <paper-button on-tap="toggle" data-item$="[[area.places]]">[[area.name]]</paper-button>
+                        <paper-button class$="body [[foo]]" on-tap="toggle" data-item$="[[area.places]]">[[area.name]]</paper-button>
                     </template>
                     <iron-collapse id="collapse">
                         <paper-linkbox>
