@@ -37,7 +37,6 @@
             this.$.collapse.toggle();
             let places = JSON.parse(event.target.dataset.item);
             this.set('places', places);
-
             let collapseOpen = this.$.collapse.opened;
             for (let index = 0; index < this.areas.length; index++) {
                 let classStyle = '';
