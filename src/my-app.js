@@ -26,22 +26,29 @@
 
         handleResponse() {
             let response = this.$.ironAjax.lastResponse;
-            response.map(area => {
-                area.foo = "button-showed";
+            let areas = response.areas.map(area => {
+                area.customClass = '';
+                return area;
             });
-            this.set('areas', response.areas);
+            this.set('areas', areas);
         }
 
         toggle(event) {
             this.$.collapse.toggle();
             let places = JSON.parse(event.target.dataset.item);
             this.set('places', places);
-            let open = this.$.collapse.opened;
-            if(open) {
-                // Change the actual button to visible and set the others to hidden.
-                this.set('foo', 'button-hidden');
-            } else {
-                // Change all buttons to visible
+            let collapseOpen = this.$.collapse.opened;
+            for (let index = 0; index < this.areas.length; index++) {
+                let classStyle = '';
+                if (collapseOpen) {
+                    let areaTemp = this.get(['areas', index, 'name']);
+                    if (areaTemp !== event.model.area.name) {
+                        classStyle = 'button-hidden';
+                    }
+                } else {
+                    classStyle = '';
+                }
+                this.set(['areas', index, 'customClass'], classStyle);
             }
         }
     }
