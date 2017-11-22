@@ -20,7 +20,9 @@
     "paper-button": "PolymerElements/paper-button#^2.0.0",
     "paper-listbox": "PolymerElements/paper-listbox#^2.0.0",
     "paper-card": "PolymerElements/paper-card#^2.0.0",
-    "paper-item": "PolymerElements/paper-item#^2.0.0"
+    "paper-item": "PolymerElements/paper-item#^2.0.0",
+    "iron-input": "PolymerElements/iron-input#^2.0.1",
+    "isw-footer-button-area": "IswPolymerElements/isw-footer-button-area#^1.0.4"
   },
   "resolutions": {
     "polymer": "2.0.0",
