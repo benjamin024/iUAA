@@ -10,7 +10,7 @@
             "x": 0,
             "y": 0
           },
-          "description": "El rector es la máxima autoridad y representante legal de la institución. Dirife, coordina y controla las actividades de todas las dependencias de la universidad.",
+          "description": "El rector es la máxima autoridad y representante legal de la institución. Dirige, coordina y controla las actividades de todas las dependencias de la universidad.",
           "building": "EAA"
         },
         {
@@ -295,7 +295,7 @@
             "x": 0,
             "y": 0
           },
-          "description": "El auditorio \"Dr. Pedro de Alba\" fue fundado el 1 de enero de 10973 y tiene un aforo de 350 personas. En este espacio se realizan conferencias, talleres, proyecciones cinematográficas, etc.",
+          "description": "El auditorio \"Dr. Pedro de Alba\" fue fundado el 1 de enero de 1973 y tiene un aforo de 350 personas. En este espacio se realizan conferencias, talleres, proyecciones cinematográficas, etc.",
           "building": "65"
         },
         {
