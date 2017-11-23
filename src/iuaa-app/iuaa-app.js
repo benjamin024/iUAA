@@ -1,9 +1,9 @@
 (function (customElements) {
     'use strict';
 
-    class MyApp extends Polymer.Element {
+    class IUAAApp extends Polymer.Element {
         static get is() {
-            return 'my-app';
+            return 'iuaa-app';
         }
 
         static get properties() {
@@ -63,6 +63,5 @@
         }
     }
 
-    customElements.define(MyApp.is, MyApp);
+    customElements.define(IUAAApp.is, IUAAApp);
 })(window.customElements);
-
