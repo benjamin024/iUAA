@@ -15,6 +15,10 @@
                 places: {
                     type: Array,
                     value: []
+                },
+                collapseOpenedClass: {
+                    type: String,
+                    value: ''
                 }
             };
         }
@@ -38,12 +42,17 @@
             let places = JSON.parse(event.target.dataset.item);
             this.set('places', places);
             let collapseOpen = this.$.collapse.opened;
+            if (collapseOpen) {
+                this.set('collapseOpenedClass', 'hidden');
+            } else {
+                this.set('collapseOpenedClass', '');
+            }
             for (let index = 0; index < this.areas.length; index++) {
                 let classStyle = '';
                 if (collapseOpen) {
                     let areaTemp = this.get(['areas', index, 'name']);
                     if (areaTemp !== event.model.area.name) {
-                        classStyle = 'button-hidden';
+                        classStyle = 'hidden';
                     }
                 } else {
                     classStyle = '';

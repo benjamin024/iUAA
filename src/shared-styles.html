@@ -54,6 +54,13 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 display: none;
             }
 
+            .drawer-container {
+                height: 100%;
+                overflow: auto;
+                display: flex;
+                flex-direction: column;
+            }
+
             .drawer-list {
                 margin: 0 20px;
             }
@@ -71,15 +78,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                 font-weight: bold;
             }
 
-            ::-webkit-scrollbar {
-                display: none;
-            }
-
-            .button-showed {
-                display: block;
-            }
-
-            .button-hidden {
+            .hidden {
                 display: none;
             }
 

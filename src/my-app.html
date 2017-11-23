@@ -43,27 +43,35 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <app-drawer-layout fullbleed narrow="{{narrow}}">
             <!-- Drawer content -->
             <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-                <div style="height: 100%; overflow: auto;">
-                    <br>
-                    <app-toolbar><img src="../assets/img/logo.png" width="60px" height="60px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>iUAA</h1></app-toolbar>
-                    <br>
-                    <template is="dom-repeat" items="[[areas]]" as="area" id="areaList">
-                        <paper-button on-tap="toggle" class$="[[area.customClass]] listelement" data-item$="[[area.places]]">
-                            [[area.name]]
-                        </paper-button>
-                    </template>
-                    <a href="http://www.uaa.mx/principal/directorio.html"><paper-button class="listelement">Directorio</paper-button></a>
+                <div class="drawer-container">
+                    <div class="drawer-header">
+                        <br>
+                        <app-toolbar><img src="../assets/img/logo.png" width="60px" height="60px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>
+                            iUAA</h1></app-toolbar>
+                        <br>
+                        <template is="dom-repeat" items="[[areas]]" as="area" id="areaList">
+                            <paper-button on-tap="toggle" class$="[[area.customClass]] listelement"
+                                          data-item$="[[area.places]]">
+                                [[area.name]]
+                            </paper-button>
+                        </template>
+                        <a href="http://www.uaa.mx/principal/directorio.html" target="_blank"
+                           class$="[[collapseOpenedClass]]">
+                            <paper-button class="listelement">Directorio</paper-button>
+                        </a>
+                    </div>
                     <iron-collapse id="collapse">
                         <paper-linkbox>
                             <template is="dom-repeat" items="[[places]]" as="place">
-                                <paper-item>[[place.name]]</paper-item><br>
+                                <paper-item>[[place.name]]</paper-item>
+                                <br>
                             </template>
                         </paper-linkbox>
                     </iron-collapse>
                 </div>
                 <div class="languages">
-                        <paper-icon-button src="../assets/img/spanish.png"></paper-icon-button>
-                        <paper-icon-button src="../assets/img/english.png"></paper-icon-button>
+                    <paper-icon-button src="../assets/img/spanish.png"></paper-icon-button>
+                    <paper-icon-button src="../assets/img/english.png"></paper-icon-button>
                 </div>
             </app-drawer>
 
