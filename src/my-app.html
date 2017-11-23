@@ -29,7 +29,6 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 <link rel="import" href="../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../bower_components/iron-input/iron-input.html">
 <link rel="import" href="../bower_components/iron-icon/iron-icon.html">
-<link rel="import" href="../bower_components/isw-footer-button-area/isw-footer-button-area.html">
 
 <dom-module id="my-app">
     <template>
@@ -53,6 +52,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                             [[area.name]]
                         </paper-button>
                     </template>
+                    <a href="http://www.uaa.mx/principal/directorio.html"><paper-button class="listelement">Directorio</paper-button></a>
                     <iron-collapse id="collapse">
                         <paper-linkbox>
                             <template is="dom-repeat" items="[[places]]" as="place">
@@ -60,18 +60,17 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                             </template>
                         </paper-linkbox>
                     </iron-collapse>
-                    <isw-footer-button-area>
+                </div>
+                <div class="languages">
                         <paper-icon-button src="../assets/img/spanish.png"></paper-icon-button>
                         <paper-icon-button src="../assets/img/english.png"></paper-icon-button>
-                    </isw-footer-button-area>
                 </div>
             </app-drawer>
 
             <!-- Main content -->
             <app-header-layout has-scrolling-region>
-
                 <app-header slot="header" condenses reveals effects="waterfall">
-                    <app-toolbar>
+                    <app-toolbar class="header">
                         <paper-icon-button icon="my-icons:menu" drawer-toggle></paper-icon-button>
                         &nbsp;&nbsp;&nbsp;
                         <iron-input>
