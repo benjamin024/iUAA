@@ -50,6 +50,7 @@
                 }
                 this.set(['areas', index, 'customClass'], classStyle);
             }
+
         }
     }
 
