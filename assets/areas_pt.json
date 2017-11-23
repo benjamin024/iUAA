@@ -1,0 +1,1524 @@
+{
+  "areas": [
+    {
+      "name": "Áreas administrativas",
+      "places": [
+        {
+          "id": 1,
+          "name": "Reitoria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O reitor é a autoridade máxima e representante legal da instituição. Dirige, coordena e controla as atividades de todas as dependências da universidade.",
+          "building": "EAA"
+        },
+        {
+          "id": 2,
+          "name": "Secretaria-Geral",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O objetivo da Secretaria-Geral é apoiar a Reitoria na representação, coordenação e acompanhamento das questões administrativas, acadêmicas e técnicas que lhe são delegadas, proporcionando um serviço e gerenciamento de qualidade que contribua para a geração das condições necessárias para o desempenho. das funções de nossa Casa de Estudos.",
+          "building": "1"
+        },
+        {
+          "id": 3,
+          "name": "Direção Geral de Ensino de Graduação",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Integrado pelos seguintes departamentos: Desenvolvimento Curricular, Controle e Ensino de Acompanhamento, Avaliação Educacional, Inovação Educacional, Treinamento e Atualização Acadêmica.",
+          "building": "EAA"
+        },
+        {
+          "id": 4,
+          "name": "Direção Geral de Infraestrutura Universitária",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Integrado pelos seguintes departamentos: Departamento de Construtores, Departamento de Manutenção, Departamento de Serviços Gerais, Departamento de Processos Gráficos, Departamento de Transportes, Departamento de Vigilância.",
+          "building": "1"
+        },
+        {
+          "id": 5,
+          "name": "Direção Geral de Planejamento e Desenvolvimento",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "É encarregado de realizar todos os estudos e pesquisas necessários para a formulação e atualização de planos de curto, médio e longo prazo para a Universidade e para a coordenação de todos os processos de planejamento institucional.",
+          "building": "1"
+        },
+        {
+          "id": 6,
+          "name": "Direção Geral de Finanças",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "É composto pelos departamentos de: caixas de poupança, compras, contabilidade, controle orçamental, controle de imóveis móveis e imóveis e orçamento e administração financeira.",
+          "building": "1"
+        },
+        {
+          "id": 7,
+          "name": "Direção Geral de Pesquisa e Pós-Graduação",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Coordena as atividades de pesquisa (desde a concepção e divulgação dos projetos de chamada a presente a serem financiados para a colaboração e promoção de espaços para divulgação de resultados de pesquisa) e pós-graduação (desde o projeto, revisão e avaliação curricular dos estudos de pós-graduação, até a sua acreditação por organizações nacionais e internacionais). Também é responsável pela gestão dos processos de mobilidade dos alunos e professores e pela promoção da proteção da propriedade intelectual.",
+          "building": "EAA"
+        },
+        {
+          "id": 8,
+          "name": "Direção Geral de Divulgação e Ligação",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Coordena, apoia e implementa ações que abordam diferentes aspectos da disseminação, vinculação e extensão da cultura através dos departamentos administrativos de Extensão Acadêmica, Difusão Cultural, Vinculação, Rádio e Universidade TV e Editorial.",
+          "building": "EAA"
+        },
+        {
+          "id": 9,
+          "name": "Galeria da Universidade",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Projeto focado nas artes plásticas em geral. Artistas renomados apresentam suas obras de escultura, pintura, gráficos, objeto artístico, fotografia, entre outros.",
+          "building": "1-B"
+        },
+        {
+          "id": 10,
+          "name": "Direção Geral de Serviços Educacionais",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Oferece serviços de qualidade coordenada em apoio à trajetória escolar dos alunos, permitindo que eles completem seus treinamentos de forma oportuna, pertinente e abrangente. Inclui os seguintes departamentos: Suporte para Treinamento Integral, Crédito Educacional e Bolsas de Estudo, Esportes, Informações Bibliográficas e Orientação Educacional.",
+          "building": "EAA"
+        },
+        {
+          "id": 150,
+          "name": "Edifício académico administrativo",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo 11 níveis entre os quais estão alguns departamentos, como divulgação cultural, intercâmbio acadêmico e bolsas de estudo, assuntos gerais, entre outros.",
+          "building": "EAA"
+        },
+        {
+          "id": 17,
+          "name": "Controle e caixas escolares",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Atente janelas para realizar qualquer tipo de procedimento acadêmico e caixas para pagar serviços.",
+          "building": "1-A"
+        },
+        {
+          "id": 11,
+          "name": "Centro de Ciências Básicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O Centro de Ciências Básicas inclui os seguintes programas educacionais: Bacharel em Biologia, Bacharel em Biotecnologia, Engenheiro de Bioquímica, Engenheiro Eletrônico, Engenheiro de Informática Inteligente, Engenheiro de Sistemas de Computadores, Engenheiro Industrial Estatístico, Bacharel Químico-Biológico, Bacharel. Em Ciências Ambientais, Bacharel Em Matemática Aplicada e Bacharel Em Tecnologias de Informação.",
+          "building": "202"
+        },
+        {
+          "id": 12,
+          "name": "Centro de Ciências de Design e Construção",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O Centro de Ciências do Design e da Construção inclui os seguintes programas educacionais: Arquitetura, Engenharia Civil, Design de Interiores, Licenciado em Design de Moda em Vestuário e Têxtil, Licenciado em Design Gráfico, Licenciatura em Design Industrial e Bacharelado em Urbanismo",
+          "building": "108"
+        },
+        {
+          "id": 13,
+          "name": "Centro de Ciências Econômicas e Administrativas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O Centro de Ciências Econômicas e Administrativas inclui os seguintes programas educacionais: Contabilista, Licenciatura em Administração de Produção e Serviços, Bacharel em Administração Financeira, Bacharel em Administração de Empresas, Bacharel em Comércio Internacional, Bacharelado. em Economia, Bacharel em Gestão de Turismo, Bacharel em Marketing e Bacharel em Relações Industriais",
+          "building": "32"
+        },
+        {
+          "id": 14,
+          "name": "Centro de Ciencias de la Salud",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "El Centro de Ciencias de la Salud comprende los siguientes programas educativos: Lic. en Cultura Física y Deporte, Lic. en Enfermería, Lic. en Nutrición, Lic. en Optometría, Lic. en Terapia Física, Médico Cirujano y Médico Estomatólogo.",
+          "building": "101"
+        },
+        {
+          "id": 15,
+          "name": "Centro de Ciências Sociais e Humanidades",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O Centro de Ciências Sociais e Ciências Humanas inclui os seguintes programas educacionais: Licenciatura em Psicopedagógico de Aconselhamento, Bacharel em Ciências Políticas e Administração Pública, Bacharel em Comunicação e Informação, Bacharel em Comunicação Organizacional, Bacharel em Direito, Bacharel em Ensino Francês e Espanhol como Línguas Estrangeiros, Bacharel em Ensino de Língua Inglesa, Bacharel em Filosofia, Bacharel em História, Bacharel em Psicologia, Bacharel em Sociologia e Bacharel em Trabalho Social.",
+          "building": "6"
+        }
+      ]
+    },
+    {
+      "name": "Áreas de apoio",
+      "places": [
+        {
+          "id": 16,
+          "name": "Departamento de Comunicação e Relações Públicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Coordena as ações e atividades relativas à comunicação institucional, que busca disseminar os valores e tarefas da universidade, bem como as contribuições da Instituição para a sociedade, através de sua própria mídia externa e externa.",
+          "building": "2"
+        },
+        {
+          "id": 18,
+          "name": "Federação de Estudantes",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Associação de estudantes encarregados de representar a comunidade estudantil perante as autoridades.",
+          "building": "3"
+        },
+        {
+          "id": 19,
+          "name": "Livraria universitária",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Venda de livros para estudantes e público em geral.",
+          "building": "9"
+        },
+        {
+          "id": 20,
+          "name": "Produtos La Posta",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Loja de produtos naturais elaborada pelo Centro de Ciências Agrícolas.",
+          "building": "9"
+        },
+        {
+          "id": 21,
+          "name": "Universitienda",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Loja de itens promocionais com a imagem oficial da Universidad Autónoma de Aguascalientes.",
+          "building": "9"
+        },
+        {
+          "id": 64,
+          "name": "Câmara de julgamento oral",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "A Câmara de Julgamento Oral da UAA beneficia tanto a comunidade universitária quanto a sociedade, uma vez que em suas instalações, os advogados de julgamento podem ser treinados e atualizados para que possam aplicar o novo Sistema de Justiça Criminal.",
+          "building": "14"
+        },
+        {
+          "id": 24,
+          "name": "Universidade de Rádio",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Estação de rádio da Universidad Autónoma de Aguascalientes. Transmissão em 94.7 FM",
+          "building": "14"
+        },
+        {
+          "id": 66,
+          "name": "Abóbada \"Jesús F. Contreras\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O abóbada Jesús F. Contreras é um espaço que recebe coleções históricas de figuras representativas da arte e cultura da região de Aguascalientes. Foi construído com os requisitos técnicos necessários para a conservação de documentos: condicionamento espacial, infra-estrutura, equipamentos tecnológicos, como ar condicionado automatizado, prateleiras adequadas para distribuição e proteção do patrimônio histórico.",
+          "building": "62B"
+        },
+        {
+          "id": 25,
+          "name": "Cabine de departamento de segurança",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Lugar onde você pode solicitar serviços, tais como: serviço de vigilância extraordinário, admissão na universidade em dias não úteis, entrada e remoção de equipamentos das instalações e permanência de veículos no estacionamento.",
+          "building": "63"
+        },
+        {
+          "id": 26,
+          "name": "Cabine leste",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Cabine do Departamento de Vigilância leste",
+          "building": "64"
+        },
+        {
+          "id": 29,
+          "name": "Biblioteca Central",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "A biblioteca da UAA é a mais importante no estado de Aguascalientes. Possui uma coleção que excede 380 mil volumes de livros, bem como periódicos e recursos eletrônicos que permitem a consulta de bancos de dados especializados a nível nacional e internacional. Também oferece serviços como: Empréstimo de equipamentos especializados para cegos, Empréstimo de equipamentos informáticos portáteis, cabines de estudo, renovação on-line, entre outros.",
+          "building": "65"
+        },
+        {
+          "id": 30,
+          "name": "Auditório \"Dr. Pedro de Alba\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O auditório \"Dr. Pedro de Alba\" foi fundado em 1 de janeiro de 1973 e tem capacidade para 350 pessoas. Neste espaço conferências, workshops, filmings, etc. são realizados.",
+          "building": "65"
+        },
+        {
+          "id": 31,
+          "name": "Cabine oeste",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Cabine do Departamento de Vigilância oeste",
+          "building": "66"
+        },
+        {
+          "id": 32,
+          "name": "SUAP",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Endereço acidentes e contingências que ocorrem nas instalações do campus universitário",
+          "building": "66"
+        },
+        {
+          "id": 33,
+          "name": "Unidade de Ensino Médico",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Ofrece a la comunidad universitaria y a la población en general que lo requiera, servicios de salud integrales con costos debajo del medio privado.",
+          "building": "101"
+        },
+        {
+          "id": 34,
+          "name": "Auditório \"Dr. Alfonso Pérez Romo\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Auditório do Centro de Ciências da Saúde, foi inaugurado em 19 de junho de 1973 e tem capacidade para 100 pessoas.",
+          "building": "101"
+        },
+        {
+          "id": 37,
+          "name": "Sala Expoforo",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Sala multiusos do Centro de Ciências de Design e Construção. Neste local, vários tipos de eventos são realizados, como Seminários, Workshops, Conferências, etc.",
+          "building": "108B"
+        },
+        {
+          "id": 39,
+          "name": "Biblioteca do Norte",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "A biblioteca da UAA é a mais importante no estado de Aguascalientes. Possui uma coleção que excede 380 mil volumes de livros, bem como periódicos e recursos eletrônicos que permitem a consulta de bancos de dados especializados a nível nacional e internacional. Também oferece serviços como: Empréstimo de equipamentos especializados para cegos, Empréstimo de equipamentos informáticos portáteis, cabines de estudo, renovação on-line, entre outros.",
+          "building": "109"
+        },
+        {
+          "id": 41,
+          "name": "Manutenção",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Você pode solicitar o serviço de manutenção: mobiliário e imóveis, eletricidade e encanamento, equipamentos ópticos e eletromecânicos e eletrônicos.",
+          "building": "125"
+        },
+        {
+          "id": 42,
+          "name": "Transportes",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Oferece serviços de transporte comunitário universitário para a realização de viagens locais (no estado de Aguascalientes) e viagens estrangeiras (fora do estado de Aguascalientes).",
+          "building": "126"
+        },
+        {
+          "id": 43,
+          "name": "Armazém, Processos Gráficos e Estoques",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Armazém e inventários da universidade, o Departamento de Processos Gráficos apenas fornecerá o serviço de design, edição e impressão do material bibliográfico, impressão em grande formato e vários artigos exigidos pela Instituição.",
+          "building": "127"
+        },
+        {
+          "id": 46,
+          "name": "Estação meteorológica",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "É uma equipe que se destina a medir e registrar várias variáveis meteorológicas em um determinado momento e é usada para a preparação de previsões a partir de modelos numéricos como para estudos climáticos.",
+          "building": "130"
+        },
+        {
+          "id": 47,
+          "name": "Esportes sob capa",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "A UAA fornece os elementos necessários para a prática de atividades físicas e esportivas que afetam positivamente o desenvolvimento integral da comunidade.",
+          "building": "133"
+        },
+        {
+          "id": 40,
+          "name": "Ginásio Universidade",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Oferece à comunidade um lugar saudável para realizar atividades físicas e recreativas. Está totalmente equipado com bicicletas, esteiras e máquinas de ponta de peso, uma riqueza de recursos de exercício que podem ser usados por até 100 usuários por vez.",
+          "building": "133B"
+        },
+        {
+          "id": 44,
+          "name": "Poliforum",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Inaugurado em 2016, o poliforum foi renovado, modernizado, expandido e completamente reabilitado em suas infraestruturas, instalações e equipamentos para a prática do esporte, a promoção das artes e da cultura e a convivência da comunidade.",
+          "building": "133C"
+        },
+        {
+          "id": 48,
+          "name": "Hospital Veterinário",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Contribui para o ensino dos alunos da carreira de Medicina Veterinária Zootecnista e para outros, graças às suas instalações, equpamento e experiência dos professores, consolidou-se como um lugar onde a saúde animal é atendida, não só da entidade, mas de a região.",
+          "building": "137"
+        },
+        {
+          "id": 49,
+          "name": "Bioterium",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O bioterium é um dos espaços disponíveis para o Centro de Ciências Básicas para promover o conhecimento e o treinamento abrangente dos alunos. A função básica do bioterio é cuidar dos animais nos aspectos médicos e alimentares e seu uso no laboratório, salvaguardando a saúde das pessoas, dos animais e do meio ambiente. Ratos, ratos, hamsters, coelhos, rebanhos, cordeiros, anfíbios e galinhas são criados agora.",
+          "building": "138"
+        },
+        {
+          "id": 50,
+          "name": "Auditório \"Ing. Javier Salazar Negrete\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Auditório do Centro de Ciências Básicas, foi inaugurado em 19 de junho de 1973 e tem capacidade para 286 pessoas.",
+          "building": "202"
+        },
+        {
+          "id": 51,
+          "name": "Unidade de televisão universitária\"Pedro Rivas Cuéllar\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Unidade de transmissão e gravação para o canal de televisão UAAtv (26.2 da televisão aberta). Começou suas transmissões em 13 de setembro de 2010.",
+          "building": "206"
+        },
+        {
+          "id": 52,
+          "name": "Planta de tratamento de água",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Planta utilizada para o tratamento da água utilizada para regar os jardins da universidade. A planta é projetada para lidar com um fluxo de 11 l / s de água de três fluxos: primeiro da universidade, outra parte da colônia de Fátima e, finalmente, da divisão Florestas.",
+          "building": "208"
+        },
+        {
+          "id": 53,
+          "name": "Piscina universitária",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Piscina Olímpica da Universidade Autônoma de Aguascalientes, oferece cursos de natação para a comunidade e o público em geral.",
+          "building": "209"
+        },
+        {
+          "id": 55,
+          "name": "Promoção para a segunda língua e CAADI",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Centros de linguagem de aprendizagem própria. Unidade dedicada ao estudo de línguas estrangeiras, oferece cursos de línguas para a comunidade universitária e o público em geral. Aqui também os alunos realizam suas atividades para cumprir o plano de promoção para a segunda língua.",
+          "building": "211"
+        },
+        {
+          "id": 56,
+          "name": "Unidade de Cuidados e Pesquisa em Psicologia",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "A Unidade de Atenção e Investigação tem professores de tempo integral para resolver a demanda acadêmica, terapeutas, bem como com a participação dos alunos do curso de Psicologia. Ele coloca ao alcance um espaço mais para atender o aspecto psicológico da população americana. Atualmente, os serviços de terapia são oferecidos a casais, familiares ou individualmente, o último diferenciado entre crianças, adolescentes e adultos.",
+          "building": "212"
+        },
+        {
+          "id": 57,
+          "name": "Serviços universitários para cuidados de saúde",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Oferece a comunidade universitária e a população em geral que o exige, serviços de saúde abrangentes com custos no ambiente privado.",
+          "building": "213"
+        },
+        {
+          "id": 58,
+          "name": "Salão universitário de múltiplos usos",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Espaço onde diversas atividades são realizadas como congressos, fóruns, reuniões, etc.",
+          "building": "219"
+        },
+        {
+          "id": 59,
+          "name": "Unidade de Estudos Avançados",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Unidade dedicada ao desenvolvimento da ciência, tecnologia e educação no nível de pós-graduação através da pesquisa.",
+          "building": "220"
+        },
+        {
+          "id": 60,
+          "name": "Auditório \"Dr. Ignacio T. Chávez\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Auditório inaugurado em 1 de janeiro de 2000, tem capacidade para 180 pessoas.",
+          "building": "220"
+        },
+        {
+          "id": 61,
+          "name": "Edifício multifuncional \"Dr. Luis Manuel Macías López\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "O espaço do edifício polivalente consiste em 16 salas de aula, quatro salas de aula isópicas e uma cabine.",
+          "building": "221"
+        },
+        {
+          "id": 62,
+          "name": "Unidade de ligação universitária",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Os seguintes serviços são oferecidos através do Departamento de Ligação: Unidade de Negócios e Incubadora de Negócios, Bolsa de Trabalho Universitário, Serviços de Concessão e Atenção aos Programas Sociais e Governamentais.",
+          "building": "222"
+        },
+        {
+          "id": 63,
+          "name": "Unidade Didática de Gerenciamento de Design",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Unidade responsável pela gestão corporativa e design e publicidade institucional.",
+          "building": "223"
+        }
+      ]
+    },
+    {
+      "name": "Aulas, laboratórios e oficinas",
+      "places": [
+        {
+          "id": 67,
+          "name": "Edifício 4",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "4"
+        },
+        {
+          "id": 68,
+          "name": "Edifício 5",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "5"
+        },
+        {
+          "id": 69,
+          "name": "Edifício 7",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "7"
+        },
+        {
+          "id": 70,
+          "name": "Edifício 10",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "10"
+        },
+        {
+          "id": 71,
+          "name": "Edifício 11",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "11"
+        },
+        {
+          "id": 72,
+          "name": "Edifício 12",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "12"
+        },
+        {
+          "id": 73,
+          "name": "Edifício 13",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "13"
+        },
+        {
+          "id": 74,
+          "name": "Edifício 15",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "15"
+        },
+        {
+          "id": 75,
+          "name": "Edifício 16",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "16"
+        },
+        {
+          "id": 76,
+          "name": "Edifício 17",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "17"
+        },
+        {
+          "id": 77,
+          "name": "Edifício 18",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "18"
+        },
+        {
+          "id": 78,
+          "name": "Edifício 19",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "19"
+        },
+        {
+          "id": 79,
+          "name": "Edifício 20",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "20"
+        },
+        {
+          "id": 80,
+          "name": "Edifício 21",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "21"
+        },
+        {
+          "id": 81,
+          "name": "Edifício 22",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "22"
+        },
+        {
+          "id": 82,
+          "name": "Edifício 23",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "23"
+        },
+        {
+          "id": 83,
+          "name": "Edifício 24",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "24"
+        },
+        {
+          "id": 84,
+          "name": "Edifício 25",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "25"
+        },
+        {
+          "id": 85,
+          "name": "Edifício 26",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "26"
+        },
+        {
+          "id": 86,
+          "name": "Edifício 27",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "27"
+        },
+        {
+          "id": 87,
+          "name": "Edifício 28",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "28"
+        },
+        {
+          "id": 89,
+          "name": "Edifício 29",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "29"
+        },
+        {
+          "id": 90,
+          "name": "Edifício 30",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "30"
+        },
+        {
+          "id": 91,
+          "name": "Edifício 31",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "31"
+        },
+        {
+          "id": 92,
+          "name": "Edifício 34",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "34"
+        },
+        {
+          "id": 93,
+          "name": "Edifício 35",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "35"
+        },
+        {
+          "id": 94,
+          "name": "Edifício 36",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "36"
+        },
+        {
+          "id": 95,
+          "name": "Edifício 37",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "37"
+        },
+        {
+          "id": 96,
+          "name": "Edifício 38",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "38"
+        },
+        {
+          "id": 97,
+          "name": "Edifício 39",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "39"
+        },
+        {
+          "id": 98,
+          "name": "Edifício 40",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "40"
+        },
+        {
+          "id": 99,
+          "name": "Edifício 42",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "42"
+        },
+        {
+          "id": 100,
+          "name": "Edifício 43",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "43"
+        },
+        {
+          "id": 101,
+          "name": "Edifício 44",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "44"
+        },
+        {
+          "id": 102,
+          "name": "Edifício 45",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "45"
+        },
+        {
+          "id": 103,
+          "name": "Edifício 46",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "46"
+        },
+        {
+          "id": 104,
+          "name": "Edifício 48",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "48"
+        },
+        {
+          "id": 105,
+          "name": "Edifício 49",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "49"
+        },
+        {
+          "id": 106,
+          "name": "Edifício 50",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "50"
+        },
+        {
+          "id": 107,
+          "name": "Edifício 51",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "51"
+        },
+        {
+          "id": 108,
+          "name": "Edifício 52",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "52"
+        },
+        {
+          "id": 109,
+          "name": "Edifício 53",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "53"
+        },
+        {
+          "id": 110,
+          "name": "Edifício 54",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "54"
+        },
+        {
+          "id": 111,
+          "name": "Edifício 55",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "55"
+        },
+        {
+          "id": 112,
+          "name": "Edifício 57",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "57"
+        },
+        {
+          "id": 113,
+          "name": "Edifício 58",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "58"
+        },
+        {
+          "id": 114,
+          "name": "Edifício 59",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "59"
+        },
+        {
+          "id": 115,
+          "name": "Edifício 60",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "61"
+        },
+        {
+          "id": 116,
+          "name": "Edifício 61",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "61"
+        },
+        {
+          "id": 117,
+          "name": "Edifício 62",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "62"
+        },
+        {
+          "id": 118,
+          "name": "Edifício 102",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "102"
+        },
+        {
+          "id": 119,
+          "name": "Edifício 103",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "103"
+        },
+        {
+          "id": 120,
+          "name": "Edifício 104",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "104"
+        },
+        {
+          "id": 121,
+          "name": "Edifício 105",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "105"
+        },
+        {
+          "id": 122,
+          "name": "Edifício 106",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "106"
+        },
+        {
+          "id": 123,
+          "name": "Edifício 107",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "107"
+        },
+        {
+          "id": 124,
+          "name": "Edifício 107A",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "107A"
+        },
+        {
+          "id": 125,
+          "name": "Edifício 107B",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "107B"
+        },
+        {
+          "id": 126,
+          "name": "Edifício 110",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "110"
+        },
+        {
+          "id": 127,
+          "name": "Edifício 111",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "111"
+        },
+        {
+          "id": 128,
+          "name": "Edifício 112",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "112"
+        },
+        {
+          "id": 129,
+          "name": "Edifício 113",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "113"
+        },
+        {
+          "id": 130,
+          "name": "Edifício 114",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "114"
+        },
+        {
+          "id": 131,
+          "name": "Edifício 115",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "115"
+        },
+        {
+          "id": 132,
+          "name": "Edifício 116",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "116"
+        },
+        {
+          "id": 133,
+          "name": "Edifício 117",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "117"
+        },
+        {
+          "id": 134,
+          "name": "Edifício 118",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "118"
+        },
+        {
+          "id": 135,
+          "name": "Edifício 119",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "119"
+        },
+        {
+          "id": 136,
+          "name": "Edifício 120",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "120"
+        },
+        {
+          "id": 137,
+          "name": "Edifício 121",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "121"
+        },
+        {
+          "id": 138,
+          "name": "Edifício 131",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "131"
+        },
+        {
+          "id": 139,
+          "name": "Edifício 132",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "132"
+        },
+        {
+          "id": 140,
+          "name": "Edifício 203",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "203"
+        },
+        {
+          "id": 141,
+          "name": "Edifício 204",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "204"
+        },
+        {
+          "id": 142,
+          "name": "Edifício 205",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "205"
+        },
+        {
+          "id": 143,
+          "name": "Edifício 207",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "207"
+        },
+        {
+          "id": 144,
+          "name": "Edifício 301",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "301"
+        },
+        {
+          "id": 145,
+          "name": "Edifício 302",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "302"
+        },
+        {
+          "id": 146,
+          "name": "Edifício 303",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "303"
+        },
+        {
+          "id": 147,
+          "name": "Edifício 304",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "304"
+        },
+        {
+          "id": 148,
+          "name": "Edifício 305",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "305"
+        },
+        {
+          "id": 149,
+          "name": "Edifício 306",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Construindo com salas de aula, laboratórios ou oficinas.",
+          "building": "306"
+        }
+      ]
+    },
+    {
+      "name": "Sítios interessantes",
+      "places": [
+        {
+          "id": 151,
+          "name": "Jardim das Gerações",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 152,
+          "name": "Audiorama",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 153,
+          "name": "Velaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "9"
+        },
+        {
+          "id": 154,
+          "name": "Mesquite",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 155,
+          "name": "Unidade de esportes universitários \"Profesor Enrique Olivares Santana\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 151,
+          "name": "Jardim Botânico",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 35,
+          "name": "Cafeteria do Norte",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Estabelecimento para comprar alimentos e bebidas.",
+          "building": "122"
+        },
+        {
+          "id": 54,
+          "name": "Cafeteria do Sul",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Estabelecimento para comprar alimentos e bebidas.",
+          "building": "210"
+        },
+        {
+          "id": 22,
+          "name": "Cafeteria do Leste",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Estabelecimento para comprar alimentos e bebidas.",
+          "building": "9"
+        },
+        {
+          "id": 23,
+          "name": "Cafeteria do Oeste",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Estabelecimento para comprar alimentos e bebidas.",
+          "building": "47"
+        },
+        {
+          "id": 36,
+          "name": "Cafeteria Biomédicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Estabelecimento para comprar alimentos e bebidas.",
+          "building": "104C"
+        }
+      ]
+    }
+  ]
+}
