@@ -35,7 +35,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         <style include="shared-styles"></style>
         <iron-ajax
                 id="ironAjax"
-                url="../assets/areas.json"
+                url="../assets/areas_es.json"
                 handle-as="json"
                 on-response="handleResponse"
                 debounce-duration="300">
@@ -69,7 +69,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
                         </paper-linkbox>
                     </iron-collapse>
                 </div>
-                <div class="languages">
+                <div class$="[[collapseOpenedClass]] languages">
                     <paper-icon-button src="../assets/img/spanish.png"></paper-icon-button>
                     <paper-icon-button src="../assets/img/english.png"></paper-icon-button>
                 </div>
