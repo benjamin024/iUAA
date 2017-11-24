@@ -1,0 +1,1524 @@
+{
+  "areas": [
+    {
+      "name": "Verwaltungsgebiete",
+      "places": [
+        {
+          "id": 1,
+          "name": "Pfarrhaus",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Der Rektor ist die oberste Instanz und der gesetzliche Vertreter der Institution. Leitet, koordiniert und steuert die Aktivitäten aller Abhängigkeiten der Universität.",
+          "building": "EAA"
+        },
+        {
+          "id": 2,
+          "name": "Generalsekretariat",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Der Zweck des Generalsekretariats besteht darin, das Pfarramt bei der Vertretung, Koordinierung und Weiterverfolgung der ihm übertragenen administrativen, akademischen und technischen Angelegenheiten zu unterstützen und ein Dienstleistungs- und Qualitätsmanagement bereitzustellen, das zur Schaffung der notwendigen Voraussetzungen für die Leistung beiträgt. der Funktionen unseres Hauses der Studien.",
+          "building": "1"
+        },
+        {
+          "id": 3,
+          "name": "Generaldirektion des Grundstudiums",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Integriert von den folgenden Abteilungen: Curriculumentwicklung, Kontrolle und Lehre Follow-up, Bildungsbewertung, Bildungsinnovation, Training und akademische Aktualisierung.",
+          "building": "EAA"
+        },
+        {
+          "id": 4,
+          "name": "Generaldirektion der Universitätsinfrastruktur",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Integriert von folgenden Abteilungen: Department of Constructions, Abteilung für Instandhaltung, Abteilung für allgemeine Dienstleistungen, Abteilung für grafische Prozesse, Verkehrsabteilung, Abteilung für Überwachung.",
+          "building": "1"
+        },
+        {
+          "id": 5,
+          "name": "Generaldirektion für Planung und Entwicklung",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es ist verantwortlich für die Durchführung aller Studien und Forschungsarbeiten, die für die Formulierung und Aktualisierung von kurz-, mittel- und langfristigen Plänen für die Universität erforderlich sind, sowie für die Koordination aller institutionellen Planungsprozesse.",
+          "building": "1"
+        },
+        {
+          "id": 6,
+          "name": "Generaldirektion für Finanzen",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Sie besteht aus den Abteilungen Sparkassen, Käufe, Buchhaltung, Haushaltskontrolle, Kontrolle von beweglichen und unbeweglichen Sachen sowie Haushalts- und Finanzverwaltung",
+          "building": "1"
+        },
+        {
+          "id": 7,
+          "name": "Generaldirektion für Forschung und Postgraduate",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Koordiniert die Forschungsaktivitäten (von der Konzipierung und Verbreitung des Aufrufs zu den zu finanzierenden Projekten bis hin zur Zusammenarbeit und Förderung von Räumen für die Verbreitung von Forschungsergebnissen) und Postgraduierten (von der Planung, Überprüfung und curricularen Bewertung der Studien postgraduate bis zur Akkreditierung durch nationale und internationale Organisationen). Es ist auch verantwortlich für die Verwaltung von Mobilitätsprozessen für Studenten und Lehrer und die Förderung des Schutzes des geistigen Eigentums.",
+          "building": "EAA"
+        },
+        {
+          "id": 8,
+          "name": "Generaldirektion für Verbreitung und Verbindung",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Koordiniert, unterstützt und implementiert Aktionen, die sich mit verschiedenen Aspekten der Verbreitung, Verknüpfung und Erweiterung von Kultur durch die Verwaltungsbereiche Akademische Erweiterung, Kulturelle Diffusion, Linking, Radio und Universitätsfernsehen sowie Editorial beschäftigen.",
+          "building": "EAA"
+        },
+        {
+          "id": 9,
+          "name": "Universitätsgalerie",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Projekt konzentrierte sich auf die bildende Kunst im Allgemeinen. Renommierte Künstler präsentieren ua ihre Skulpturen, Malerei, Grafik, Objektkunst, Fotografie.",
+          "building": "1-B"
+        },
+        {
+          "id": 10,
+          "name": "Generaldirektion für Bildungsdienstleistungen",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es bietet koordinierte Qualitätsdienste zur Unterstützung des Schulweges der Schüler an, so dass sie ihre Ausbildung zeitnah, sachbezogen und umfassend abschließen können. Es umfasst die folgenden Abteilungen: Unterstützung für integrale Ausbildung, Bildungskredite und Stipendien, Sport, Bibliographische Informationen und Bildungsberatung.",
+          "building": "EAA"
+        },
+        {
+          "id": 150,
+          "name": "Akademisches Verwaltungsgebäude",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Gebäude de 11 niveles entre los que se encuentran algunos departamentos como el de difusión cultural, intercambio académico y becas, asuntos generales, entre otros.",
+          "building": "EAA"
+        },
+        {
+          "id": 17,
+          "name": "Schulkontroll- und Sammelboxen",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Unterstützen Sie Fenster, um jede Art von akademischen Verfahren und Kästchen für Dienstleistungen zu bezahlen.",
+          "building": "1-A"
+        },
+        {
+          "id": 11,
+          "name": "Basiswissenschaftszentrum",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Basic Sciences Center umfasst die folgenden Bildungsprogramme: Bachelor in Biologie, Bachelor in Biotechnologie, Biochemie-Ingenieur, Elektroniker, Ingenieur in Intelligent Computing, Ingenieur in Rechnersystemen, Statistischer Wirtschaftsingenieur, Bachelor in chemisch-biologischer Analyse, Bachelor of Science Environmental, Bachelor Angewandte Mathematik und Bachelor of Information Technology.",
+          "building": "202"
+        },
+        {
+          "id": 12,
+          "name": "Zentrum für Design und Bauwissenschaften",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Zentrum für Design und Bauwissenschaften umfasst die folgenden Bildungsprogramme: Architektur, Bauingenieurwesen, Innenarchitektur, Bachelor of Fashion Design in Bekleidung und Textilien, Bachelor of Graphic Design, Bachelor of Industrial Design und Bachelor of Design Urbanismus",
+          "building": "108"
+        },
+        {
+          "id": 13,
+          "name": "Zentrum für Wirtschafts- und Verwaltungswissenschaften",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Zentrum für Wirtschafts- und Verwaltungswissenschaften umfasst die folgenden Bildungsprogramme: Wirtschaftsprüfer, Bachelor für Produktions- und Dienstleistungsverwaltung, Bachelor of Financial Administration, Bachelor of Business Administration, Bachelor of International Trade, Bachelor of Economics, Bachelor of Tourism Management, Bachelor of Marketing und Bachelor of Industrial Relations",
+          "building": "32"
+        },
+        {
+          "id": 14,
+          "name": "Zentrum für Gesundheitswissenschaften",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Zentrum für Gesundheitswissenschaften umfasst folgende Bildungsprogramme: Abschluss in Körperkultur und Sport, Bachelor of Nursing, Bachelor of Nutrition, Bachelor of Optometry, Bachelor of Physical Therapy, Chirurg und Stomatologe.",
+          "building": "101"
+        },
+        {
+          "id": 15,
+          "name": "Zentrum für Sozial- und Geisteswissenschaften",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Zentrum für Sozial- und Geisteswissenschaften umfasst folgende Bildungsprogramme: Bachelor in Psychopädagogischer Beratung, Bachelor in Politikwissenschaft und Öffentlicher Verwaltung, Bachelor in Kommunikation und Information, Bachelor in Organisationskommunikation, Bachelor of Law, Bachelor in Französisch und Spanisch als Fremdsprachen Auslandsstudium, Bachelor of English Language, Bachelor of Philosophy, Bachelor of History, Bachelor of Psychology, Bachelor of Soziologie und Bachelor of Social Work.",
+          "building": "6"
+        }
+      ]
+    },
+    {
+      "name": "Stützbereiche",
+      "places": [
+        {
+          "id": 16,
+          "name": "Abteilung für Kommunikation und Öffentlichkeitsarbeit",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Koordiniert die Aktionen und Aktivitäten in Bezug auf die institutionelle Kommunikation, die darauf abzielt, die Werte und Aufgaben der Universität sowie die Beiträge der Institution an die Gesellschaft durch ihre eigenen und externen Medien zu verbreiten.",
+          "building": "2"
+        },
+        {
+          "id": 18,
+          "name": "Studentenvereinigung",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Vereinigung von Studenten, die für die Vertretung der Studentengemeinschaft vor den Behörden verantwortlich sind.",
+          "building": "3"
+        },
+        {
+          "id": 19,
+          "name": "Universitätsbuchhandlung",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Verkauf von Büchern an Studenten und die breite Öffentlichkeit.",
+          "building": "9"
+        },
+        {
+          "id": 20,
+          "name": "La Posta Produkte",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Shop von Naturprodukten ausgearbeitet vom Zentrum für Agrarwissenschaften.",
+          "building": "9"
+        },
+        {
+          "id": 21,
+          "name": "Universitienda",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Werbeartikel speichern mit dem offiziellen Bild der Universidad Autónoma de Aguascalientes.",
+          "building": "9"
+        },
+        {
+          "id": 64,
+          "name": "Mündliche Gerichtskammer",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die UAA Oral Trial Chamber profitiert sowohl die Universitätsgemeinschaft als auch die Gesellschaft, da in ihren Einrichtungen ausgebildete und aktualisierte Prozessanwälte das neue Strafjustizsystem anwenden können.",
+          "building": "14"
+        },
+        {
+          "id": 24,
+          "name": "Radiouniversität",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Radiosender der Universidad Autónoma de Aguascalientes. Sendung auf 94,7 FM",
+          "building": "14"
+        },
+        {
+          "id": 66,
+          "name": "Gewölbe \"Jesús F. Contreras\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die Jesús F. Contreras Vault ist ein Raum, der historische Sammlungen von Figuren, die für die Kunst und Kultur der Region Aguascalientes repräsentativ sind, erhält. Es wurde mit den notwendigen technischen Anforderungen für die Konservierung von Dokumenten gebaut: Raumkonditionierung, Infrastruktur, technologische Ausrüstung wie automatisierte Klimatisierung, Regale geeignet für den Vertrieb und die Sicherung des historischen Erbes.",
+          "building": "62B"
+        },
+        {
+          "id": 25,
+          "name": "Sicherheitsabteilung Lagerhaus",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Orte, an denen Sie Dienstleistungen anfordern können, wie: außergewöhnlicher Überwachungsdienst, Zugang zur Universität an arbeitsfreien Tagen, Ein- und Ausladen von Ausrüstung aus den Einrichtungen und Aufenthalt von Fahrzeugen auf dem Parkplatz.",
+          "building": "63"
+        },
+        {
+          "id": 26,
+          "name": "Ostwachturm",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Stand der Abteilung für Überwachung Ost",
+          "building": "64"
+        },
+        {
+          "id": 29,
+          "name": "Zentralbibliothek",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die UAA-Bibliothek ist die wichtigste im Bundesstaat Aguascalientes. Es hat eine Sammlung von mehr als 380 Tausend Büchern, sowie Zeitschriften und elektronische Ressourcen, die die Konsultation von spezialisierten Datenbanken auf nationaler und internationaler Ebene ermöglichen. Es bietet auch Dienstleistungen wie: Ausleihe von speziellen Geräten für Blinde, Verleih von tragbaren Computer-Ausrüstung, Lernkabinen, Online-Erneuerung, unter anderem.",
+          "building": "65"
+        },
+        {
+          "id": 30,
+          "name": "Auditorium \"Dr. Pedro de Alba\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Auditorium \"Dr. Pedro de Alba\" wurde am 1. Januar 1973 gegründet und hat eine Kapazität von 350 Personen. In diesem Raum finden Konferenzen, Workshops, Filmvorführungen usw. statt.",
+          "building": "65"
+        },
+        {
+          "id": 31,
+          "name": "Weststand",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "West Watch Department Lagerhaus",
+          "building": "66"
+        },
+        {
+          "id": 32,
+          "name": "SUAP",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Adressenunfälle und Eventualitäten, die in den Einrichtungen des Universitätscampus auftreten",
+          "building": "66"
+        },
+        {
+          "id": 33,
+          "name": "Medizinische Unterrichtseinheit",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es bietet der Universitätsgemeinschaft und der Bevölkerung im Allgemeinen, die es erfordert, umfassende Gesundheitsdienste mit Kosten im privaten Umfeld.",
+          "building": "101"
+        },
+        {
+          "id": 34,
+          "name": "Auditorium \"Dr. Alfonso Pérez Romo\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Auditorium des Zentrums für Gesundheitswissenschaften, wurde am 19. Juni 1973 eingeweiht und hat eine Kapazität von 100 Personen.",
+          "building": "101"
+        },
+        {
+          "id": 37,
+          "name": "Expoforo-Zimmer",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Mehrzweckraum des Zentrums für Design und Bauwesen. An diesem Ort finden verschiedene Arten von Veranstaltungen wie Seminare, Workshops, Konferenzen usw. statt.",
+          "building": "108B"
+        },
+        {
+          "id": 39,
+          "name": "Nordbibliothek",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die UAA-Bibliothek ist die wichtigste im Bundesstaat Aguascalientes. Es hat eine Sammlung von mehr als 380 Tausend Büchern, sowie Zeitschriften und elektronische Ressourcen, die die Konsultation von spezialisierten Datenbanken auf nationaler und internationaler Ebene ermöglichen. Es bietet auch Dienstleistungen wie: Ausleihe von speziellen Geräten für Blinde, Verleih von tragbaren Computer-Ausrüstung, Lernkabinen, Online-Erneuerung, unter anderem.",
+          "building": "109"
+        },
+        {
+          "id": 41,
+          "name": "Wartung",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Sie können Wartungsservice anfordern: Möbel und Immobilien, Elektro- und Sanitärinstallationen, optische und elektromechanische und elektronische Geräte.",
+          "building": "125"
+        },
+        {
+          "id": 42,
+          "name": "Verkehr",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es bietet der Universitätsgemeinschaft Transportdienste für die Durchführung von Ortsfahrten (im Bundesstaat Aguascalientes) und Auslandsreisen (außerhalb des Bundesstaates Aguascalientes) an.",
+          "building": "126"
+        },
+        {
+          "id": 43,
+          "name": "Lager, grafische Prozesse und Inventuren",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Lager und Inventare der Universität, Die Abteilung für Grafische Prozesse wird nur den Dienst des Designs, der Ausgabe und des Drucks des bibliographischen Materials, Großformatdrucks und verschiedener Artikel zur Verfügung stellen, die von der Institution gefordert werden.",
+          "building": "127"
+        },
+        {
+          "id": 46,
+          "name": "Wetterwarte",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es ist ein Team, das verschiedene meteorologische Variablen in einer bestimmten Zeit messen und aufzeichnen soll und wird für die Erstellung von Vorhersagen aus numerischen Modellen wie für Klimastudien verwendet.",
+          "building": "130"
+        },
+        {
+          "id": 47,
+          "name": "Sport unter dem Deckmantel",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die UAA stellt die notwendigen Elemente für die Ausübung von Sportaktivitäten bereit, die sich positiv auf die integrale Entwicklung der Gemeinschaft auswirken.",
+          "building": "133"
+        },
+        {
+          "id": 40,
+          "name": "Universität Gym",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es bietet der Gemeinschaft einen gesunden Ort für körperliche und Freizeitaktivitäten. Es ist voll ausgestattet mit Fahrrädern, Laufbändern und modernsten Kraftgeräten, einer Fülle von Übungsressourcen, die von bis zu 100 Benutzern gleichzeitig genutzt werden können.",
+          "building": "133B"
+        },
+        {
+          "id": 44,
+          "name": "Poliforum",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das 2016 eröffnete Poliforum wurde in seiner Infrastruktur, Ausstattung und Ausstattung für Sport, Kunst- und Kulturförderung und Gemeinschaftskoexistenz renoviert, modernisiert, erweitert und vollständig saniert.",
+          "building": "133C"
+        },
+        {
+          "id": 48,
+          "name": "Veterinärkrankenhaus",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es trägt zum Unterricht der Studenten der Veterinärmedizinischen Karriere Zootecnista und zu anderen bei, dank seiner Einrichtungen, equpamento und Erfahrung der Professoren, hat sich wie ein Platz konsolidiert, wo die Tiergesundheit, nicht nur der Entität sondern die Region.",
+          "building": "137"
+        },
+        {
+          "id": 49,
+          "name": "Bioterium",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Bioterium ist einer der Räume, die dem Basic Sciences Center zur Verfügung stehen, um das Wissen und die integrale Ausbildung der Studierenden zu fördern. Die Grundfunktion des Bioteriums besteht darin, sich um die Tiere in medizinischer und Ernährungsweise und ihre Verwendung im Labor zu kümmern und die Gesundheit von Menschen, Tieren und ihrer Umwelt zu schützen. Ratten, Mäuse, Hamster, Kaninchen, Herden, Lämmer, Amphibien und Hühner werden jetzt aufgezogen.",
+          "building": "138"
+        },
+        {
+          "id": 50,
+          "name": "Auditorium \"Ing. Javier Salazar Negrete\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Auditorium des Zentrums für Grundlagenforschung wurde am 19. Juni 1973 eingeweiht und hat eine Kapazität von 286 Personen.",
+          "building": "202"
+        },
+        {
+          "id": 51,
+          "name": "Universitätsfernsehen \"Pedro Rivas Cuéllar\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Sende- und Aufnahmeeinheit für den Fernsehkanal UAAtv (26.2 des offenen Fernsehens). Es begann seine Übertragungen am 13. September 2010.",
+          "building": "206"
+        },
+        {
+          "id": 52,
+          "name": "Wasseraufbereitungsanlage",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Anlage zur Aufbereitung von Wasser zur Bewässerung der Gärten der Universität. Die Anlage ist darauf ausgelegt, einen Fluss von 11 l / s Wasser aus drei Bächen zu bewältigen: zuerst der Universität, einem weiteren Teil der Fátima-Kolonie und schließlich der Abteilung Wälder.",
+          "building": "208"
+        },
+        {
+          "id": 53,
+          "name": "Universitätspool",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Olympic Pool der Universidad Autónoma de Aguascalientes, bietet Schwimmkurse für die Gemeinschaft und die breite Öffentlichkeit.",
+          "building": "209"
+        },
+        {
+          "id": 55,
+          "name": "Aufstieg in die zweite Sprache und CAADI",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Selbstlernende Sprachzentren. Einheit für das Erlernen von Fremdsprachen, bietet Sprachkurse für die Universitätsgemeinschaft und die breite Öffentlichkeit. Hier führen auch die Schüler ihre Aktivitäten durch, um den Beförderungsplan für die zweite Sprache zu erfüllen.",
+          "building": "211"
+        },
+        {
+          "id": 56,
+          "name": "Einheit der Pflege und Forschung in der Psychologie",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die Einheit der Aufmerksamkeit und Untersuchung hat Vollzeit-Professoren, um die akademische Nachfrage, Therapeuten zu lösen, sowie mit der Teilnahme der Studenten des Grades in der Psychologie. Es schafft einen weiteren Raum, um sich um den psychologischen Aspekt der amerikanischen Bevölkerung zu kümmern. Gegenwärtig werden Therapiedienste für Paare, Familien oder Einzelpersonen angeboten, wobei letztere zwischen Kindern, Jugendlichen und Erwachsenen unterschieden werden.",
+          "building": "212"
+        },
+        {
+          "id": 57,
+          "name": "Universitätsdienste für das Gesundheitswesen",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Es bietet der Universitätsgemeinschaft und der Bevölkerung im Allgemeinen, die es erfordert, umfassende Gesundheitsdienste mit Kosten im privaten Umfeld.",
+          "building": "213"
+        },
+        {
+          "id": 58,
+          "name": "Mehrzweckhalle der Universität",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Raum, in dem vielfältige Aktivitäten wie Kongresse, Foren, Meetings etc. realisiert werden",
+          "building": "219"
+        },
+        {
+          "id": 59,
+          "name": "Fortgeschrittene Studieneinheit",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Referat für die Entwicklung von Wissenschaft, Technologie und Bildung auf Hochschulniveau durch Forschung.",
+          "building": "220"
+        },
+        {
+          "id": 60,
+          "name": "Auditorium \"Dr. Ignacio T. Chávez\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Das Auditorium, das am 1. Januar 2000 eingeweiht wurde, bietet Platz für 180 Personen.",
+          "building": "220"
+        },
+        {
+          "id": 61,
+          "name": "Mehrzweckgebäude \"Dr. Luis Manuel Macías López\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Der Raum des Polyvalent Gebäudes besteht aus 16 Klassenzimmern, vier isoptischen Klassenzimmern und einer Kabine.",
+          "building": "221"
+        },
+        {
+          "id": 62,
+          "name": "Verbindungsstelle der Universität",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Die folgenden Dienstleistungen werden über die Verbindungsstelle angeboten: Business Unit und Business Incubator, Universitätsarbeitsbörse, Konzessionsdienste und Aufmerksamkeit für Sozial- und Regierungsprogramme.",
+          "building": "222"
+        },
+        {
+          "id": 63,
+          "name": "Didaktische Einheit des Design Managements",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Verantwortliche Stelle für Unternehmensführung und Design sowie für institutionelle Werbung.",
+          "building": "223"
+        }
+      ]
+    },
+    {
+      "name": "Klassenzimmer, Labors und Werkstätten",
+      "places": [
+        {
+          "id": 67,
+          "name": "Gebäude 4",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "4"
+        },
+        {
+          "id": 68,
+          "name": "Gebäude 5",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "5"
+        },
+        {
+          "id": 69,
+          "name": "Gebäude 7",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "7"
+        },
+        {
+          "id": 70,
+          "name": "Gebäude 10",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "10"
+        },
+        {
+          "id": 71,
+          "name": "Gebäude 11",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "11"
+        },
+        {
+          "id": 72,
+          "name": "Gebäude 12",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "12"
+        },
+        {
+          "id": 73,
+          "name": "Gebäude 13",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "13"
+        },
+        {
+          "id": 74,
+          "name": "Gebäude 15",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "15"
+        },
+        {
+          "id": 75,
+          "name": "Gebäude 16",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "16"
+        },
+        {
+          "id": 76,
+          "name": "Gebäude 17",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "17"
+        },
+        {
+          "id": 77,
+          "name": "Gebäude 18",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "18"
+        },
+        {
+          "id": 78,
+          "name": "Gebäude 19",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "19"
+        },
+        {
+          "id": 79,
+          "name": "Gebäude 20",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "20"
+        },
+        {
+          "id": 80,
+          "name": "Gebäude 21",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "21"
+        },
+        {
+          "id": 81,
+          "name": "Gebäude 22",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "22"
+        },
+        {
+          "id": 82,
+          "name": "Gebäude 23",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "23"
+        },
+        {
+          "id": 83,
+          "name": "Gebäude 24",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "24"
+        },
+        {
+          "id": 84,
+          "name": "Gebäude 25",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "25"
+        },
+        {
+          "id": 85,
+          "name": "Gebäude 26",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "26"
+        },
+        {
+          "id": 86,
+          "name": "Gebäude 27",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "27"
+        },
+        {
+          "id": 87,
+          "name": "Gebäude 28",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "28"
+        },
+        {
+          "id": 89,
+          "name": "Gebäude 29",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "29"
+        },
+        {
+          "id": 90,
+          "name": "Gebäude 30",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "30"
+        },
+        {
+          "id": 91,
+          "name": "Gebäude 31",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "31"
+        },
+        {
+          "id": 92,
+          "name": "Gebäude 34",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "34"
+        },
+        {
+          "id": 93,
+          "name": "Gebäude 35",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "35"
+        },
+        {
+          "id": 94,
+          "name": "Gebäude 36",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "36"
+        },
+        {
+          "id": 95,
+          "name": "Gebäude 37",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "37"
+        },
+        {
+          "id": 96,
+          "name": "Gebäude 38",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "38"
+        },
+        {
+          "id": 97,
+          "name": "Gebäude 39",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "39"
+        },
+        {
+          "id": 98,
+          "name": "Gebäude 40",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "40"
+        },
+        {
+          "id": 99,
+          "name": "Gebäude 42",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "42"
+        },
+        {
+          "id": 100,
+          "name": "Gebäude 43",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "43"
+        },
+        {
+          "id": 101,
+          "name": "Gebäude 44",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "44"
+        },
+        {
+          "id": 102,
+          "name": "Gebäude 45",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "45"
+        },
+        {
+          "id": 103,
+          "name": "Gebäude 46",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "46"
+        },
+        {
+          "id": 104,
+          "name": "Gebäude 48",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "48"
+        },
+        {
+          "id": 105,
+          "name": "Gebäude 49",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "49"
+        },
+        {
+          "id": 106,
+          "name": "Gebäude 50",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "50"
+        },
+        {
+          "id": 107,
+          "name": "Gebäude 51",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "51"
+        },
+        {
+          "id": 108,
+          "name": "Gebäude 52",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "52"
+        },
+        {
+          "id": 109,
+          "name": "Gebäude 53",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "53"
+        },
+        {
+          "id": 110,
+          "name": "Gebäude 54",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "54"
+        },
+        {
+          "id": 111,
+          "name": "Gebäude 55",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "55"
+        },
+        {
+          "id": 112,
+          "name": "Gebäude 57",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "57"
+        },
+        {
+          "id": 113,
+          "name": "Gebäude 58",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "58"
+        },
+        {
+          "id": 114,
+          "name": "Gebäude 59",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "59"
+        },
+        {
+          "id": 115,
+          "name": "Gebäude 60",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "61"
+        },
+        {
+          "id": 116,
+          "name": "Gebäude 61",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "61"
+        },
+        {
+          "id": 117,
+          "name": "Gebäude 62",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "62"
+        },
+        {
+          "id": 118,
+          "name": "Gebäude 102",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "102"
+        },
+        {
+          "id": 119,
+          "name": "Gebäude 103",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "103"
+        },
+        {
+          "id": 120,
+          "name": "Gebäude 104",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "104"
+        },
+        {
+          "id": 121,
+          "name": "Gebäude 105",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "105"
+        },
+        {
+          "id": 122,
+          "name": "Gebäude 106",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "106"
+        },
+        {
+          "id": 123,
+          "name": "Gebäude 107",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "107"
+        },
+        {
+          "id": 124,
+          "name": "Gebäude 107A",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "107A"
+        },
+        {
+          "id": 125,
+          "name": "Gebäude 107B",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "107B"
+        },
+        {
+          "id": 126,
+          "name": "Gebäude 110",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "110"
+        },
+        {
+          "id": 127,
+          "name": "Gebäude 111",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "111"
+        },
+        {
+          "id": 128,
+          "name": "Gebäude 112",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "112"
+        },
+        {
+          "id": 129,
+          "name": "Gebäude 113",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "113"
+        },
+        {
+          "id": 130,
+          "name": "Gebäude 114",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "114"
+        },
+        {
+          "id": 131,
+          "name": "Gebäude 115",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "115"
+        },
+        {
+          "id": 132,
+          "name": "Gebäude 116",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "116"
+        },
+        {
+          "id": 133,
+          "name": "Gebäude 117",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "117"
+        },
+        {
+          "id": 134,
+          "name": "Gebäude 118",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "118"
+        },
+        {
+          "id": 135,
+          "name": "Gebäude 119",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "119"
+        },
+        {
+          "id": 136,
+          "name": "Gebäude 120",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "120"
+        },
+        {
+          "id": 137,
+          "name": "Gebäude 121",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "121"
+        },
+        {
+          "id": 138,
+          "name": "Gebäude 131",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "131"
+        },
+        {
+          "id": 139,
+          "name": "Gebäude 132",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "132"
+        },
+        {
+          "id": 140,
+          "name": "Gebäude 203",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "203"
+        },
+        {
+          "id": 141,
+          "name": "Gebäude 204",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "204"
+        },
+        {
+          "id": 142,
+          "name": "Gebäude 205",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "205"
+        },
+        {
+          "id": 143,
+          "name": "Gebäude 207",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "207"
+        },
+        {
+          "id": 144,
+          "name": "Gebäude 301",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "301"
+        },
+        {
+          "id": 145,
+          "name": "Gebäude 302",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "302"
+        },
+        {
+          "id": 146,
+          "name": "Gebäude 303",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "303"
+        },
+        {
+          "id": 147,
+          "name": "Gebäude 304",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "304"
+        },
+        {
+          "id": 148,
+          "name": "Gebäude 305",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "305"
+        },
+        {
+          "id": 149,
+          "name": "Gebäude 306",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Bauen mit Klassenzimmern, Laboren oder Werkstätten.",
+          "building": "306"
+        }
+      ]
+    },
+    {
+      "name": "Sehenswürdigkeiten",
+      "places": [
+        {
+          "id": 151,
+          "name": "Garten der Generationen",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 152,
+          "name": "Audiorama",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 153,
+          "name": "Velaria",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "9"
+        },
+        {
+          "id": 154,
+          "name": "Mezquitera",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 155,
+          "name": "Hochschulsport Unit \"Profesor Enrique Olivares Santana\"",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 151,
+          "name": "Botanischer Garten",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "",
+          "building": "N/A"
+        },
+        {
+          "id": 35,
+          "name": "Nordcafé",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Einrichtung zum Kauf von Speisen und Getränken.",
+          "building": "122"
+        },
+        {
+          "id": 54,
+          "name": "Südencafé",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Einrichtung zum Kauf von Speisen und Getränken.",
+          "building": "210"
+        },
+        {
+          "id": 22,
+          "name": "Ostcafé",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Einrichtung zum Kauf von Speisen und Getränken.",
+          "building": "9"
+        },
+        {
+          "id": 23,
+          "name": "Westencafé",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Einrichtung zum Kauf von Speisen und Getränken.",
+          "building": "47"
+        },
+        {
+          "id": 36,
+          "name": "Cafeteria Biomédicas",
+          "coordinates": {
+            "x": 0,
+            "y": 0
+          },
+          "description": "Einrichtung zum Kauf von Speisen und Getränken.",
+          "building": "104C"
+        }
+      ]
+    }
+  ]
+}
