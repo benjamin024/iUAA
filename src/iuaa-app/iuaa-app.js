@@ -8,6 +8,15 @@
 
         static get properties() {
             return {
+                language: {
+                    type: String,
+                    value: 'es',
+                    observer: 'renderLanguage'
+                },
+                labels: {
+                    type: Object,
+                    value: {}
+                },
                 areas: {
                     type: Array,
                     value: []
@@ -26,6 +35,7 @@
         connectedCallback() {
             super.connectedCallback();
             this.$.ironAjax.generateRequest();
+            this.$.languageService.generateRequest();
         }
 
         handleResponse() {
@@ -60,6 +70,18 @@
                 this.set(['areas', index, 'customClass'], classStyle);
             }
 
+        }
+
+        changeLanguage(event) {
+            let lang = event.target.getAttribute('data-lang');
+            this.set('language', lang);
+            this.$.ironAjax.generateRequest();
+            this.$.languageService.generateRequest();
+        }
+
+        renderLanguage() {
+            let response = this.$.languageService.lastResponse;
+            this.set('labels', response);
         }
     }
 

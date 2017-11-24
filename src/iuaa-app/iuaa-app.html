@@ -28,9 +28,16 @@
         <style include="iuaa-app-styles"></style>
         <iron-ajax
                 id="ironAjax"
-                url="./assets/areas_es.json"
+                url="./assets/areas_[[language]].json"
                 handle-as="json"
                 on-response="handleResponse"
+                debounce-duration="300">
+        </iron-ajax>
+        <iron-ajax
+                id="languageService"
+                url="./locales/[[language]].json"
+                handle-as="json"
+                on-response="renderLanguage"
                 debounce-duration="300">
         </iron-ajax>
         <app-drawer-layout fullbleed narrow="{{narrow}}">
@@ -50,7 +57,7 @@
                         </template>
                         <a href="http://www.uaa.mx/principal/directorio.html" target="_blank"
                            class$="[[collapseOpenedClass]]">
-                            <paper-button class="listelement">Directorio</paper-button>
+                            <paper-button class="listelement">[[labels.contacts]]</paper-button>
                         </a>
                     </div>
                     <iron-collapse id="collapse">
@@ -63,12 +70,12 @@
                     </iron-collapse>
                 </div>
                 <div class="languages">
-                    <paper-icon-button src="../assets/img/spanish.png"></paper-icon-button>
-                    <paper-icon-button src="../assets/img/english.png"></paper-icon-button>
-                    <paper-icon-button src="../assets/img/french.png"></paper-icon-button>
-                    <paper-icon-button src="../assets/img/portuguese.png"></paper-icon-button>
-                    <paper-icon-button src="../assets/img/german.png"></paper-icon-button>
-                    <paper-icon-button src="../assets/img/italian.png"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/spanish.png" on-tap="changeLanguage" data-lang="es"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/english.png" on-tap="changeLanguage" data-lang="en"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/french.png" on-tap="changeLanguage" data-lang="fr"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/portuguese.png" on-tap="changeLanguage" data-lang="pt"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/german.png" on-tap="changeLanguage" data-lang="de"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/italian.png" on-tap="changeLanguage" data-lang="it"></paper-icon-button>
                 </div>
             </app-drawer>
 
@@ -79,7 +86,7 @@
                         <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
                         &nbsp;&nbsp;&nbsp;
                         <iron-input>
-                            <input type="search" name="places" class="searchfield" placeholder="¿Qué buscas?">
+                            <input type="search" name="places" class="searchfield" placeholder="[[labels.inputLabelSearch]]">
                         </iron-input>
                         &nbsp;&nbsp;&nbsp;
                         <paper-icon-button icon="iuaa-icons:search"></paper-icon-button>
