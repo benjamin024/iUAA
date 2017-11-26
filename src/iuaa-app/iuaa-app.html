@@ -20,6 +20,9 @@
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+
 <link rel="import" href="./iuaa-app-icons.html">
 <link rel="import" href="./iuaa-app-styles.html">
 
@@ -70,12 +73,18 @@
                     </iron-collapse>
                 </div>
                 <div class$="[[collapseOpenedClass]] languages">
-                    <paper-icon-button src="./assets/img/spanish.png" on-tap="changeLanguage" data-lang="es"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/english.png" on-tap="changeLanguage" data-lang="en"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/french.png" on-tap="changeLanguage" data-lang="fr"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/portuguese.png" on-tap="changeLanguage" data-lang="pt"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/german.png" on-tap="changeLanguage" data-lang="de"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/italian.png" on-tap="changeLanguage" data-lang="it"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/spanish.png" on-tap="changeLanguage"
+                                       data-lang="es"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/english.png" on-tap="changeLanguage"
+                                       data-lang="en"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/french.png" on-tap="changeLanguage"
+                                       data-lang="fr"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/portuguese.png" on-tap="changeLanguage"
+                                       data-lang="pt"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/german.png" on-tap="changeLanguage"
+                                       data-lang="de"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/italian.png" on-tap="changeLanguage"
+                                       data-lang="it"></paper-icon-button>
                 </div>
             </app-drawer>
 
@@ -86,13 +95,14 @@
                         <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
                         &nbsp;&nbsp;&nbsp;
                         <iron-input>
-                            <input type="search" name="places" class="searchfield" placeholder="[[labels.inputLabelSearch]]">
+                            <input type="search" name="places" class="searchfield"
+                                   placeholder="[[labels.inputLabelSearch]]">
                         </iron-input>
                         &nbsp;&nbsp;&nbsp;
                         <paper-icon-button icon="iuaa-icons:search"></paper-icon-button>
                     </app-toolbar>
                 </app-header>
-                <img src="./assets/map.svg" alt="UAA" class="map">
+                <div id="map"></div>
             </app-header-layout>
         </app-drawer-layout>
     </template>
