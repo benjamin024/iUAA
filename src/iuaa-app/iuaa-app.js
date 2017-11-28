@@ -94,6 +94,10 @@
             this.$.containerMap.scroll(px,py);
             this.$.drawer.close();
         }
+
+        handleScroll(event) {
+            console.log(event);
+        }
     }
 
     customElements.define(IUAAApp.is, IUAAApp);

@@ -34,9 +34,15 @@
                 }
             }
 
-            .map {
-                width: 200%;
-                height: 200%;
+            .paper-fab-container {
+                position: absolute;
+                top: 10px;
+                left: 10px;
+            }
+
+            paper-fab.blue {
+                --paper-fab-background: var(--paper-light-blue-500);
+                --paper-fab-keyboard-focus-background: var(--paper-light-blue-900);
             }
 
             .header {
@@ -81,7 +87,7 @@
                 font-weight: bold;
             }
 
-            .searchfield{
+            .searchfield {
                 background-color: #FFFFFF;
                 color: #000000;
                 height: 40px;
