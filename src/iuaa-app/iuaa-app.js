@@ -90,9 +90,14 @@
         updateMapPosition(event) {
             let px = event.target.getAttribute('data-px');
             let py = event.target.getAttribute('data-py');
+            let img = event.target.getAttribute('data-img');
             console.log("("+px+","+py+")");
-            this.$.containerMap.scroll(px,py);
+            console.log("IMG: " +img);
+            this.$.map.innerHTML = "<img src='../../assets/img/map/map_"+img+".svg' height='200%' width='auto' />";
             this.$.drawer.close();
+            setTimeout(() => {
+                this.$.containerMap.scroll(px,py);
+            }, 500);
         }
     }
 
