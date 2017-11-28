@@ -88,9 +88,10 @@
         }
 
         updateMapPosition(event) {
-            let x = event.target.getAttribute('data-x');
-            let y = event.target.getAttribute('data-y');
-            this.$.containerMap.scroll(x,y);
+            let px = event.target.getAttribute('data-px');
+            let py = event.target.getAttribute('data-py');
+            console.log("("+px+","+py+")");
+            this.$.containerMap.scroll(px,py);
             this.$.drawer.close();
         }
     }

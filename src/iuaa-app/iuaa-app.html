@@ -63,7 +63,7 @@
                     <iron-collapse id="collapse">
                         <paper-linkbox>
                             <template is="dom-repeat" items="[[places]]" as="place">
-                                <paper-item  on-tap="updateMapPosition"  data-x="[[place.coordinates.x]]" data-y="[[place.coordinates.y]]">[[place.name]]</paper-item>
+                                <paper-item  on-tap="updateMapPosition"  data-px="[[place.coordinates.x]]" data-py="[[place.coordinates.y]]">[[place.name]]</paper-item>
                                 <br>
                             </template>
                         </paper-linkbox>
