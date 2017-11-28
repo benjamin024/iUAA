@@ -36,6 +36,9 @@
             super.connectedCallback();
             this.$.ironAjax.generateRequest();
             this.$.languageService.generateRequest();
+            setTimeout(() => {
+                this.$.containerMap.scroll(540,620);
+            }, 500);
         }
 
         handleResponse() {
@@ -82,6 +85,13 @@
         renderLanguage() {
             let response = this.$.languageService.lastResponse;
             this.set('labels', response);
+        }
+
+        updateMapPosition(event) {
+            let x = event.target.getAttribute('data-x');
+            let y = event.target.getAttribute('data-y');
+            this.$.containerMap.scroll(x,y);
+            this.$.drawer.close();
         }
     }
 

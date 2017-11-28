@@ -63,7 +63,7 @@
                     <iron-collapse id="collapse">
                         <paper-linkbox>
                             <template is="dom-repeat" items="[[places]]" as="place">
-                                <paper-item>[[place.name]]</paper-item>
+                                <paper-item  on-tap="updateMapPosition"  data-x="[[place.coordinates.x]]" data-y="[[place.coordinates.y]]">[[place.name]]</paper-item>
                                 <br>
                             </template>
                         </paper-linkbox>
@@ -81,7 +81,7 @@
 
             <!-- Main content -->
             <app-header-layout has-scrolling-region>
-                <app-header slot="header" condenses reveals effects="waterfall">
+                <app-header slot="header" condenses fixed reveals effects="waterfall"  id="containerMap">
                     <app-toolbar class="header">
                         <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
                         &nbsp;&nbsp;&nbsp;
@@ -92,7 +92,9 @@
                         <paper-icon-button icon="iuaa-icons:search"></paper-icon-button>
                     </app-toolbar>
                 </app-header>
-                <img src="./assets/map.svg" alt="UAA" class="map">
+                <div id="map" style="height: 100%">
+                    <img src="../../assets/map.svg" height="200%" width="auto" />
+                </div>
             </app-header-layout>
         </app-drawer-layout>
     </template>
