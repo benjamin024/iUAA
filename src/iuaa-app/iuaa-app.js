@@ -40,8 +40,8 @@
                 placeSelected: {
                     type: Object,
                     value: {
-                        name: 'IUAA',
-                        description: 'Una aplicación diseñada para ti, que deseas ubicarte más rápido en el plantel.'
+                        name: 'iUAA',
+                        description: ''
                     }
                 }
             };
@@ -119,6 +119,7 @@
                 this.$.drawer.open();
                 this.$.results.style.display = 'block';
                 this.$.principal.style.display = 'none';
+                this.$.collapse.style.display = 'none';
                 this.$.es.style.display = 'none';
                 this.$.en.style.display = 'none';
                 this.$.fr.style.display = 'none';
@@ -145,6 +146,7 @@
         backToPrincipal() {
             this.$.results.style.display = 'none';
             this.$.principal.style.display = 'block';
+            this.$.collapse.style.display = 'block';
             this.$.es.style.display = 'block';
             this.$.en.style.display = 'block';
             this.$.fr.style.display = 'block';
