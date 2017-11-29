@@ -28,6 +28,21 @@
                 collapseOpenedClass: {
                     type: String,
                     value: ''
+                },
+                results: {
+                    type: Array,
+                    value: []
+                },
+                imgSource: {
+                    type: String,
+                    value: 'default'
+                },
+                placeSelected: {
+                    type: Object,
+                    value: {
+                        name: 'iUAA',
+                        description: ''
+                    }
                 }
             };
         }
@@ -41,7 +56,7 @@
                 bounceAtZoomLimits: false
             }).setView([51.505, -0.09], 13);
 
-            L.tileLayer('./assets/map.svg', {
+            L.tileLayer('./assets/map_default.svg', {
                 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
 
@@ -94,6 +109,67 @@
         renderLanguage() {
             let response = this.$.languageService.lastResponse;
             this.set('labels', response);
+        }
+
+        updateMapPosition(event) {
+            this.set('placeSelected', event.model.place);
+            let px = event.target.getAttribute('data-px');
+            let py = event.target.getAttribute('data-py');
+            let img = event.target.getAttribute('data-img');
+            this.set('imgSource', img);
+            this.$.drawer.close();
+            this.$.containerMap.scroll(px, py);
+        }
+
+        searchPlaces() {
+            let p = this.$.placesForm.value;
+            let auxArray = new Array();
+            let i = 0;
+            p = p.toLowerCase();
+            p = p.replace(/[^a-zA-Z0-9]/g, '');
+            if (p !== '') {
+                this.$.drawer.open();
+                this.$.results.style.display = 'block';
+                this.$.principal.style.display = 'none';
+                this.$.collapse.style.display = 'none';
+                this.$.es.style.display = 'none';
+                this.$.en.style.display = 'none';
+                this.$.fr.style.display = 'none';
+                this.$.de.style.display = 'none';
+                this.$.pt.style.display = 'none';
+                this.$.it.style.display = 'none';
+                for (let area of this.areas) {
+                    for (let place of area.places) {
+                        let auxName = place.name;
+                        auxName = auxName.toLowerCase();
+                        auxName = auxName.replace(/[^a-zA-Z0-9]/g, '');
+                        let auxDescription = place.description;
+                        let auxBuilding = place.building;
+                        if (auxName.indexOf(p) > -1 || auxDescription.indexOf(p) > -1 || auxBuilding == p) {
+                            auxArray.push(place);
+                        }
+                    }
+                }
+                this.set('results', auxArray);
+            }
+
+        }
+
+        backToPrincipal() {
+            this.$.results.style.display = 'none';
+            this.$.principal.style.display = 'block';
+            this.$.collapse.style.display = 'block';
+            this.$.es.style.display = 'block';
+            this.$.en.style.display = 'block';
+            this.$.fr.style.display = 'block';
+            this.$.de.style.display = 'block';
+            this.$.pt.style.display = 'block';
+            this.$.it.style.display = 'block';
+            this.set('results', []);
+        }
+
+        showPlaceInfo() {
+            this.$.modal.open();
         }
     }
 

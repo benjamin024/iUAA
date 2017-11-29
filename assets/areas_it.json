@@ -7,8 +7,8 @@
           "id": 1,
           "name": "Canonica",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Il rettore è la massima autorità e rappresentante legale dell'istituzione. Dirige, coordina e controlla le attività di tutte le dipendenze dell'università.",
           "building": "EAA"
@@ -17,8 +17,8 @@
           "id": 2,
           "name": "Segretariato Generale",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Lo scopo del Segretariato Generale è quello di supportare il Rettorato nella rappresentazione, il coordinamento e il follow-up delle questioni amministrative, accademiche e tecniche ad esso delegate, fornendo un servizio e una gestione della qualità che contribuisca alla generazione delle condizioni necessarie per la prestazione. delle funzioni della nostra casa di studi.",
           "building": "1"
@@ -27,8 +27,8 @@
           "id": 3,
           "name": "Direzione generale dell'insegnamento universitario",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Integrato dai seguenti dipartimenti: Sviluppo curriculare, controllo e follow-up di insegnamento, valutazione educativa, innovazione educativa, formazione e aggiornamento accademico.",
           "building": "EAA"
@@ -37,8 +37,8 @@
           "id": 4,
           "name": "Direzione generale delle infrastrutture universitarie",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Integrato dai seguenti dipartimenti: Dipartimento delle costruzioni, Dipartimento della manutenzione, Dipartimento dei servizi generali, Dipartimento dei processi grafici, Dipartimento dei trasporti, Dipartimento di sorveglianza.",
           "building": "1"
@@ -47,8 +47,8 @@
           "id": 5,
           "name": "Direzione Generale di Pianificazione e Sviluppo",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "È incaricato di svolgere tutti gli studi e le ricerche necessari per la formulazione e l'aggiornamento dei piani a breve, medio e lungo termine per l'Università e per il coordinamento di tutti i processi di pianificazione istituzionale.",
           "building": "1"
@@ -57,8 +57,8 @@
           "id": 6,
           "name": "Direzione generale delle finanze",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "È composto dai dipartimenti di: casse di risparmio, acquisti, contabilità, controllo di bilancio, controllo dei beni mobili e immobili, bilancio e amministrazione finanziaria",
           "building": "1"
@@ -67,8 +67,8 @@
           "id": 7,
           "name": "Direzione Generale di Ricerca e Specializzazione",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Coordina le attività di ricerca (dalla progettazione e diffusione dell'invito a presentare progetti da finanziare alla collaborazione e alla promozione di spazi per la diffusione dei risultati della ricerca) e post-laurea (dalla progettazione, revisione e valutazione curriculare degli studi di post-laurea, fino al suo accreditamento da parte di organizzazioni nazionali e internazionali). È inoltre responsabile della gestione dei processi di mobilità degli studenti e degli insegnanti e della promozione della protezione della proprietà intellettuale.",
           "building": "EAA"
@@ -77,8 +77,8 @@
           "id": 8,
           "name": "Direzione Generale di Disseminazione e Collegamento",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Coordina, supporta e implementa azioni che affrontano diversi aspetti della diffusione, del collegamento e dell'estensione della cultura attraverso i dipartimenti amministrativi di Estensione accademica, Diffusione culturale, Collegamento, Radio e TV e Editoriale universitari.",
           "building": "EAA"
@@ -87,18 +87,18 @@
           "id": 9,
           "name": "Galleria universitaria",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "Progetto incentrato sulle arti plastiche in generale. Artisti rinomati presentano le loro opere di scultura, pittura, grafica, oggettistica, fotografia, tra gli altri.",
-          "building": "1-B"
+          "building": "1B"
         },
         {
           "id": 10,
           "name": "Direzione generale dei servizi educativi",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Offre servizi di qualità coordinati a supporto della traiettoria scolastica degli studenti, consentendo loro di completare la loro formazione in modo tempestivo, pertinente e completo. Comprende i seguenti dipartimenti: supporto per la formazione integrale, credito educativo e borse di studio, sport, informazioni bibliografiche e orientamento educativo.",
           "building": "EAA"
@@ -107,8 +107,8 @@
           "id": 150,
           "name": "Edificio accademico amministrativo",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Costruzione di 11 livelli tra cui alcuni dipartimenti come la diffusione culturale, scambi accademici e borse di studio, affari generali, tra gli altri.",
           "building": "EAA"
@@ -117,18 +117,18 @@
           "id": 17,
           "name": "Scatole per il controllo e la raccolta della scuola",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "Finestre di attenzione per eseguire qualsiasi tipo di procedura accademica e scatole per pagare i servizi.",
-          "building": "1-A"
+          "building": "1A"
         },
         {
           "id": 11,
           "name": "Centro di scienze di base",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Il Centro di scienze di base comprende i seguenti programmi educativi: Laurea in Biologia, Corso di laurea in Biotecnologie, Ingegnere biochimico, Ingegnere elettronico, Ingegnere in Intelligent Computing, Ingegnere in sistemi computazionali, Ingegnere statistico industriale, Corso di laurea in Analisi chimico-biologiche, Corso di laurea Environmental, Bachelor of Applied Mathematics e Bachelor of Information Technology.",
           "building": "202"
@@ -137,8 +137,8 @@
           "id": 12,
           "name": "Centro per le scienze della progettazione e della Costruzione",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Il Centro per le scienze della progettazione e della Costruzione comprende i seguenti programmi educativi: architettura, ingegneria civile, laurea in design degli interni, laurea in design della moda in abbigliamento e tessuti, laurea in progettazione grafica, laurea in disegno industriale e laurea triennale urbanistica.",
           "building": "108"
@@ -147,8 +147,8 @@
           "id": 13,
           "name": "Centro di scienze economiche e amministrative",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Il Centro per le scienze economiche e amministrative comprende i seguenti programmi educativi: pubblico contabile, laurea in amministrazione della produzione e dei servizi, laurea in amministrazione finanziaria, laurea in economia aziendale, laurea in commercio internazionale, laurea in economia, laurea in gestione del turismo, Laurea in Marketing e Bachelor of Industrial Relations",
           "building": "32"
@@ -157,8 +157,8 @@
           "id": 14,
           "name": "Centro di scienze della salute",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Il Centro per le scienze della salute comprende i seguenti programmi educativi: Laurea in Cultura Fisica e Sport, Laurea in Infermieristica, Laurea in Nutrizione, Laurea in Optometria, Laurea in Terapia Fisica, Chirurgo e Stomatologo.",
           "building": "101"
@@ -167,8 +167,8 @@
           "id": 15,
           "name": "Centro di scienze sociali e umanistiche",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Il Centro per le scienze sociali e umanistiche include i seguenti programmi educativi: Licenza in consulenza psicopedagogica, con licenza. in Scienze Politiche e Pubblica Amministrazione, Laurea in Comunicazione e Informazione, Laurea in Comunicazione Organizzativa, Bachelor of Teaching in Francese e Spagnolo come Lingue Straniere, Bachelor of English Language Teaching, Bachelor of Philosophy, Bachelor. in Storia, Laurea in Psicologia, Laurea in Sociologia e Bachelor of Social Work.",
           "building": "6"
@@ -182,8 +182,8 @@
           "id": 16,
           "name": "Dipartimento di comunicazione e pubbliche relazioni",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Coordina le azioni e le attività relative alla comunicazione istituzionale, che cerca di divulgare i valori e i compiti dell'università, così come i contributi dell'Istituzione alla società, attraverso i propri media e quelli esterni.",
           "building": "2"
@@ -192,8 +192,8 @@
           "id": 18,
           "name": "Federazione degli studenti",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Associazione di studenti incaricati di rappresentare la comunità studentesca davanti alle autorità.",
           "building": "3"
@@ -202,8 +202,8 @@
           "id": 19,
           "name": "Libreria universitaria",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Vendita di libri a studenti e al pubblico in generale.",
           "building": "9"
@@ -212,8 +212,8 @@
           "id": 20,
           "name": "Prodotti La Posta",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Negozio di prodotti naturali elaborati dal Centro di scienze agrarie.",
           "building": "9"
@@ -222,8 +222,8 @@
           "id": 21,
           "name": "Universitienda",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Negozio di articoli promozionali con l'immagine ufficiale dell'Universidad Autónoma de Aguascalientes.",
           "building": "9"
@@ -232,8 +232,8 @@
           "id": 64,
           "name": "Camera di prova orale",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "La Camera di prova orale della UAA va a beneficio sia della comunità universitaria sia della società, poiché nelle sue strutture gli avvocati di prova possono essere formati e aggiornati in modo da poter applicare il nuovo sistema di giustizia penale.",
           "building": "14"
@@ -242,8 +242,8 @@
           "id": 24,
           "name": "Radio Universidad",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Stazione radio dell'Universitad Autónoma de Aguascalientes. Trasmesso su 94.7 FM",
           "building": "14"
@@ -252,8 +252,8 @@
           "id": 66,
           "name": "\"Jesús F. Contreras\" Vault",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "Il Jesús F. Contreras Vault è uno spazio che riceve collezioni storiche di figure rappresentative dell'arte e della cultura della regione di Aguascalientes. E 'stato costruito con i requisiti tecnici necessari per la conservazione dei documenti: condizionamento degli spazi, infrastrutture, attrezzature tecnologiche come l'aria condizionata automatica, scaffalature adatte alla distribuzione e protezione del patrimonio storico.",
           "building": "62B"
@@ -262,8 +262,8 @@
           "id": 25,
           "name": "Deposito del dipartimento di sicurezza",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "Luogo in cui è possibile richiedere servizi quali: servizio di sorveglianza straordinaria, ingresso all'università nei giorni non lavorativi, ingresso e rimozione delle attrezzature dalle strutture e sosta dei veicoli nel parcheggio.",
           "building": "63"
@@ -272,8 +272,8 @@
           "id": 26,
           "name": "Torre di avvistamento orientale",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Stand del Dipartimento di sorveglianza orientale",
           "building": "64"
@@ -282,8 +282,8 @@
           "id": 29,
           "name": "Biblioteca centrale",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "La biblioteca UAA è la più importante nello stato di Aguascalientes. Ha una collezione che supera i 380 mila volumi di libri, oltre a periodici e risorse elettroniche che consentono la consultazione di banche dati specializzate a livello nazionale e internazionale. Offre anche servizi come: prestito di attrezzature specializzate per non vedenti, prestito di apparecchiature informatiche portatili, cubicoli di studio, rinnovo online, tra gli altri.",
           "building": "65"
@@ -292,8 +292,8 @@
           "id": 30,
           "name": "Auditorium \"Dr. Pedro de Alba\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "L'auditorium \"Dr. Pedro de Alba\" è stato fondato il 1 ° gennaio 1973 e ha una capienza di 350 persone. In questo spazio si tengono conferenze, workshop, proiezioni di film, ecc.",
           "building": "65"
@@ -302,8 +302,8 @@
           "id": 31,
           "name": "Torre di avvistamento ovest",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Stand del Dipartimento di sorveglianza ovest",
           "building": "66"
@@ -312,8 +312,8 @@
           "id": 32,
           "name": "SUAP",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Indirizzare gli incidenti e gli imprevisti che si verificano nelle strutture del campus universitario",
           "building": "66"
@@ -322,8 +322,8 @@
           "id": 33,
           "name": "Unità didattica medica",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Offre la comunità universitaria e la popolazione in generale che lo richiede, servizi sanitari completi con costi nell'ambito dell'ambiente privato.",
           "building": "101"
@@ -332,8 +332,8 @@
           "id": 34,
           "name": "Auditorium \"Dr. Alfonso Pérez Romo\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Auditorium del Centro per le scienze della salute, è stato inaugurato il 19 giugno 1973 e ha una capacità di 100 persone.",
           "building": "101"
@@ -342,8 +342,8 @@
           "id": 37,
           "name": "Sala Expoforo",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Sala polifunzionale del Centro per le scienze della progettazione e della Costruzione. In questo luogo si tengono diversi tipi di eventi come seminari, workshop, conferenze, ecc.",
           "building": "108B"
@@ -352,8 +352,8 @@
           "id": 39,
           "name": "Biblioteca del Nord",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "La biblioteca UAA è la più importante nello stato di Aguascalientes. Ha una collezione che supera i 380 mila volumi di libri, oltre a periodici e risorse elettroniche che consentono la consultazione di banche dati specializzate a livello nazionale e internazionale. Offre anche servizi come: prestito di attrezzature specializzate per non vedenti, prestito di apparecchiature informatiche portatili, cubicoli di studio, rinnovo online, tra gli altri.",
           "building": "109"
@@ -362,8 +362,8 @@
           "id": 41,
           "name": "Manutenzione",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 410
           },
           "description": "È possibile richiedere il servizio di manutenzione: mobili e immobili, impianti elettrici e idraulici, apparecchiature ottiche ed elettromeccaniche ed elettroniche.",
           "building": "125"
@@ -372,8 +372,8 @@
           "id": 42,
           "name": "Trasporto",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 410
           },
           "description": "Offre i servizi di trasporto della comunità universitaria per la realizzazione di viaggi locali (all'interno dello stato di Aguascalientes) e viaggi all'estero (fuori dallo stato di Aguascalientes).",
           "building": "126"
@@ -382,8 +382,8 @@
           "id": 43,
           "name": "Magazzino, processi grafici e inventari",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 410
           },
           "description": "Magazzino e inventari dell'università, Il Dipartimento dei Processi Grafici fornirà il servizio di progettazione, edizione e stampa del materiale bibliografico, della stampa di grande formato e di vari articoli richiesti dall'Istituzione.",
           "building": "127"
@@ -392,8 +392,8 @@
           "id": 46,
           "name": "Stazione meteorologica",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 870,
+            "y": 340
           },
           "description": "Si tratta di un team che ha lo scopo di misurare e registrare varie variabili meteorologiche in un dato momento e viene utilizzato per la preparazione di previsioni da modelli numerici come per gli studi sul clima.",
           "building": "130"
@@ -402,8 +402,8 @@
           "id": 47,
           "name": "Sport sotto copertura",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 870,
+            "y": 160
           },
           "description": "L'UAA fornisce gli elementi necessari per la pratica di attività sportive fisiche che hanno un impatto positivo sullo sviluppo integrale della comunità.",
           "building": "133"
@@ -412,8 +412,8 @@
           "id": 40,
           "name": "Palestra dell'università",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 870,
+            "y": 160
           },
           "description": "Offre alla comunità un luogo sano per svolgere attività fisiche e ricreative. È completamente equipaggiato con biciclette, tapis roulant e macchinari all'avanguardia per il peso, una vasta gamma di risorse per l'esercizio che possono essere utilizzate da un massimo di 100 utenti alla volta.",
           "building": "133B"
@@ -422,17 +422,17 @@
           "id": 44,
           "name": "Poliforo",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 870,
+            "y": 160
           },
           "description": "Inaugurato nel 2016, il poliforo è stato rinnovato, modernizzato, ampliato e completamente riabilitato nelle sue infrastrutture, strutture e attrezzature per la pratica dello sport, la promozione delle arti e della cultura e la coesistenza della comunità",
-          "building": "133C"
+          "building": "133"
         },
         {
           "id": 48,
           "name": "Ospedale Veterinario",
           "coordinates": {
-            "x": 0,
+            "x": 350,
             "y": 0
           },
           "description": "Contribuisce all'insegnamento degli studenti della carriera in Medicina Veterinaria di Zootecnista e ad altri, grazie alle sue strutture, all'equipamento e all'esperienza dei professori, si è consolidato come un luogo in cui è presente la salute degli animali, non solo dell'entità ma di la regione.",
@@ -442,7 +442,7 @@
           "id": 49,
           "name": "Bioterium",
           "coordinates": {
-            "x": 0,
+            "x": 350,
             "y": 0
           },
           "description": "Il bioterium è uno degli spazi disponibili per il Centro di scienze di base per promuovere la conoscenza e la formazione integrale degli studenti. La funzione fondamentale del bioterium è quella di prendersi cura degli animali negli aspetti medici e alimentari e il loro uso in laboratorio, salvaguardando la salute delle persone, degli animali e del loro ambiente. Ratti, topi, criceti, conigli, mandrie, agnelli, anfibi e polli sono ora allevati.",
@@ -452,8 +452,8 @@
           "id": 50,
           "name": "Auditorium \"Ing. Javier Salazar Negrete\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Auditorium del Centro di Scienze Fondamentali, è stato inaugurato il 19 giugno 1973 e ha una capacità di 286 persone.",
           "building": "202"
@@ -462,8 +462,8 @@
           "id": 51,
           "name": "Unità televisiva universitaria \"Pedro Rivas Cuéllar\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Trasmissione e unità di registrazione per il canale televisivo UAAtv (26.2 della televisione aperta). Ha iniziato le sue trasmissioni il 13 settembre 2010.",
           "building": "206"
@@ -472,8 +472,8 @@
           "id": 52,
           "name": "Impianto di trattamento delle acque",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Pianta utilizzata per il trattamento dell'acqua utilizzata per abbeverare i giardini dell'università. L'impianto è progettato per gestire un flusso di 11 l / s di acqua da tre flussi: prima dell'università, un'altra parte della colonia di Fatima e infine della divisione Bosques.",
           "building": "208"
@@ -482,8 +482,8 @@
           "id": 53,
           "name": "Piscina universitaria",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Piscina olimpica dell'Universidad Autónoma de Aguascalientes, offre corsi di nuoto alla comunità e al pubblico in generale.",
           "building": "209"
@@ -492,8 +492,8 @@
           "id": 55,
           "name": "Promozione per la seconda lingua e CAADI",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Centri di apprendimento autonomo. Unità dedicata allo studio delle lingue straniere, offre corsi di lingua alla comunità universitaria e al pubblico in generale. Anche qui gli studenti svolgono le loro attività per realizzare il piano di promozione nella seconda lingua.",
           "building": "211"
@@ -502,8 +502,8 @@
           "id": 56,
           "name": "Unità di cura e ricerca in psicologia",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "L'unità di attenzione e indagine ha professori a tempo pieno per risolvere la domanda accademica, i terapeuti e la partecipazione degli studenti della laurea in psicologia. Mette a portata di mano uno spazio in più per occuparsi dell'aspetto psicologico della popolazione americana. Attualmente i servizi di terapia sono offerti a coppie, famiglie o individualmente, quest'ultima differenziata tra bambini, adolescenti e adulti.",
           "building": "212"
@@ -512,8 +512,8 @@
           "id": 57,
           "name": "Servizi universitari per l'assistenza sanitaria",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Offre la comunità universitaria e la popolazione in generale che lo richiede, servizi sanitari completi con costi nell'ambito dell'ambiente privato.",
           "building": "213"
@@ -522,8 +522,8 @@
           "id": 58,
           "name": "Sala universitaria polivalente",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Spazio in cui vengono realizzate diverse attività come congressi, forum, riunioni, ecc.",
           "building": "219"
@@ -532,8 +532,8 @@
           "id": 59,
           "name": "Unità di studi avanzati",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Unità dedicata allo sviluppo della scienza, della tecnologia e dell'istruzione a livello di laurea attraverso la ricerca.",
           "building": "220"
@@ -542,8 +542,8 @@
           "id": 60,
           "name": "Auditorium \"Dr. Ignacio T. Chávez\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Auditorium inaugurato il 1 gennaio 2000, ha una capacità di 180 persone.",
           "building": "220"
@@ -552,8 +552,8 @@
           "id": 61,
           "name": "Costruzione polifunzionale \"Dr. Luis Manuel Macías López\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Lo spazio dell'Costruzione polivalente è composto da 16 aule, quattro aule isoptiche e una cabina.",
           "building": "221"
@@ -562,8 +562,8 @@
           "id": 62,
           "name": "Unità di collegamento universitario",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "I seguenti servizi sono offerti attraverso il Dipartimento di collegamento: Business Unit e Incubatore di imprese, Borsa di lavoro universitaria, Servizi di concessione e Attenzione ai programmi sociali e governativi.",
           "building": "222"
@@ -572,8 +572,8 @@
           "id": 63,
           "name": "Unità didattica di gestione del disegno",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 120,
+            "y": 850
           },
           "description": "Unità responsabile della gestione aziendale e del disegno e della pubblicità istituzionale.",
           "building": "223"
@@ -587,8 +587,8 @@
           "id": 67,
           "name": "Costruzione 4",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "4"
@@ -597,8 +597,8 @@
           "id": 68,
           "name": "Costruzione 5",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "5"
@@ -607,8 +607,8 @@
           "id": 69,
           "name": "Costruzione 7",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "7"
@@ -617,8 +617,8 @@
           "id": 70,
           "name": "Costruzione 10",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "10"
@@ -627,8 +627,8 @@
           "id": 71,
           "name": "Costruzione 11",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "11"
@@ -637,8 +637,8 @@
           "id": 72,
           "name": "Costruzione 12",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "12"
@@ -647,8 +647,8 @@
           "id": 73,
           "name": "Costruzione 13",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "13"
@@ -657,8 +657,8 @@
           "id": 74,
           "name": "Costruzione 15",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "15"
@@ -667,8 +667,8 @@
           "id": 75,
           "name": "Costruzione 16",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "16"
@@ -677,8 +677,8 @@
           "id": 76,
           "name": "Costruzione 17",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "17"
@@ -687,8 +687,8 @@
           "id": 77,
           "name": "Costruzione 18",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "18"
@@ -697,8 +697,8 @@
           "id": 78,
           "name": "Costruzione 19",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "19"
@@ -707,8 +707,8 @@
           "id": 79,
           "name": "Costruzione 20",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "20"
@@ -717,8 +717,8 @@
           "id": 80,
           "name": "Costruzione 21",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "21"
@@ -727,8 +727,8 @@
           "id": 81,
           "name": "Costruzione 22",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "22"
@@ -737,8 +737,8 @@
           "id": 82,
           "name": "Costruzione 23",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "23"
@@ -747,8 +747,8 @@
           "id": 83,
           "name": "Costruzione 24",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "24"
@@ -757,8 +757,8 @@
           "id": 84,
           "name": "Costruzione 25",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "25"
@@ -767,8 +767,8 @@
           "id": 85,
           "name": "Costruzione 26",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "26"
@@ -777,8 +777,8 @@
           "id": 86,
           "name": "Costruzione 27",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "27"
@@ -787,8 +787,8 @@
           "id": 87,
           "name": "Costruzione 28",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "28"
@@ -797,8 +797,8 @@
           "id": 89,
           "name": "Costruzione 29",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "29"
@@ -807,8 +807,8 @@
           "id": 90,
           "name": "Costruzione 30",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "30"
@@ -817,18 +817,28 @@
           "id": 91,
           "name": "Costruzione 31",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "31"
         },
         {
+          "id": 158,
+          "name": "Costruzione 33",
+          "coordinates": {
+            "x": 710,
+            "y": 510
+          },
+          "description": "Costruire con aule o laboratori.",
+          "building": "34"
+        },
+        {
           "id": 92,
           "name": "Costruzione 34",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "34"
@@ -837,8 +847,8 @@
           "id": 93,
           "name": "Costruzione 35",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "35"
@@ -847,8 +857,8 @@
           "id": 94,
           "name": "Costruzione 36",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "36"
@@ -857,8 +867,8 @@
           "id": 95,
           "name": "Costruzione 37",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "37"
@@ -867,8 +877,8 @@
           "id": 96,
           "name": "Costruzione 38",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "38"
@@ -877,8 +887,8 @@
           "id": 97,
           "name": "Costruzione 39",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "39"
@@ -887,8 +897,8 @@
           "id": 98,
           "name": "Costruzione 40",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "40"
@@ -897,8 +907,8 @@
           "id": 99,
           "name": "Costruzione 42",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "42"
@@ -907,8 +917,8 @@
           "id": 100,
           "name": "Costruzione 43",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "43"
@@ -917,8 +927,8 @@
           "id": 101,
           "name": "Costruzione 44",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "44"
@@ -927,8 +937,8 @@
           "id": 102,
           "name": "Costruzione 45",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 710,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "45"
@@ -937,8 +947,8 @@
           "id": 103,
           "name": "Costruzione 46",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "46"
@@ -947,8 +957,8 @@
           "id": 104,
           "name": "Costruzione 48",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "48"
@@ -957,8 +967,8 @@
           "id": 105,
           "name": "Costruzione 49",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "49"
@@ -967,8 +977,8 @@
           "id": 106,
           "name": "Costruzione 50",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "50"
@@ -977,8 +987,8 @@
           "id": 107,
           "name": "Costruzione 51",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 490,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "51"
@@ -987,8 +997,8 @@
           "id": 108,
           "name": "Costruzione 52",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "52"
@@ -997,8 +1007,8 @@
           "id": 109,
           "name": "Costruzione 53",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "53"
@@ -1007,8 +1017,8 @@
           "id": 110,
           "name": "Costruzione 54",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "54"
@@ -1017,8 +1027,8 @@
           "id": 111,
           "name": "Costruzione 55",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "55"
@@ -1027,8 +1037,8 @@
           "id": 112,
           "name": "Costruzione 57",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 490,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "57"
@@ -1037,8 +1047,8 @@
           "id": 113,
           "name": "Costruzione 58",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 490,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "58"
@@ -1047,8 +1057,8 @@
           "id": 114,
           "name": "Costruzione 59",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 490,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "59"
@@ -1057,8 +1067,8 @@
           "id": 115,
           "name": "Costruzione 60",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 490,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "61"
@@ -1067,8 +1077,8 @@
           "id": 116,
           "name": "Costruzione 61",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 490,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "61"
@@ -1077,8 +1087,8 @@
           "id": 117,
           "name": "Costruzione 62",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "62"
@@ -1087,8 +1097,8 @@
           "id": 118,
           "name": "Costruzione 102",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "102"
@@ -1097,8 +1107,8 @@
           "id": 119,
           "name": "Costruzione 103",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "103"
@@ -1107,8 +1117,8 @@
           "id": 120,
           "name": "Costruzione 104",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "104"
@@ -1117,8 +1127,8 @@
           "id": 121,
           "name": "Costruzione 105",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "105"
@@ -1127,8 +1137,8 @@
           "id": 122,
           "name": "Costruzione 106",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "106"
@@ -1137,8 +1147,8 @@
           "id": 123,
           "name": "Costruzione 107",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "107"
@@ -1147,8 +1157,8 @@
           "id": 124,
           "name": "Costruzione 107A",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "107A"
@@ -1157,8 +1167,8 @@
           "id": 125,
           "name": "Costruzione 107B",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "107B"
@@ -1167,8 +1177,8 @@
           "id": 126,
           "name": "Costruzione 110",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "110"
@@ -1177,8 +1187,8 @@
           "id": 127,
           "name": "Costruzione 111",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "111"
@@ -1187,8 +1197,8 @@
           "id": 128,
           "name": "Costruzione 112",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "112"
@@ -1197,8 +1207,8 @@
           "id": 129,
           "name": "Costruzione 113",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "113"
@@ -1207,8 +1217,8 @@
           "id": 130,
           "name": "Costruzione 114",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Costruire con aule o laboratori.",
           "building": "114"
@@ -1217,8 +1227,8 @@
           "id": 131,
           "name": "Costruzione 115",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 410
           },
           "description": "Costruire con aule o laboratori.",
           "building": "115"
@@ -1227,8 +1237,8 @@
           "id": 132,
           "name": "Costruzione 116",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 410
           },
           "description": "Costruire con aule o laboratori.",
           "building": "116"
@@ -1237,7 +1247,7 @@
           "id": 133,
           "name": "Costruzione 117",
           "coordinates": {
-            "x": 0,
+            "x": 410,
             "y": 0
           },
           "description": "Costruire con aule o laboratori.",
@@ -1247,8 +1257,8 @@
           "id": 134,
           "name": "Costruzione 118",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 290
           },
           "description": "Costruire con aule o laboratori.",
           "building": "118"
@@ -1257,8 +1267,8 @@
           "id": 135,
           "name": "Costruzione 119",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 290
           },
           "description": "Costruire con aule o laboratori.",
           "building": "119"
@@ -1267,8 +1277,8 @@
           "id": 136,
           "name": "Costruzione 120",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 290
           },
           "description": "Costruire con aule o laboratori.",
           "building": "120"
@@ -1277,8 +1287,8 @@
           "id": 137,
           "name": "Costruzione 121",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 290
           },
           "description": "Costruire con aule o laboratori.",
           "building": "121"
@@ -1287,8 +1297,8 @@
           "id": 138,
           "name": "Costruzione 131",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 870,
+            "y": 160
           },
           "description": "Costruire con aule o laboratori.",
           "building": "131"
@@ -1297,8 +1307,8 @@
           "id": 139,
           "name": "Costruzione 132",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 870,
+            "y": 160
           },
           "description": "Costruire con aule o laboratori.",
           "building": "132"
@@ -1307,8 +1317,8 @@
           "id": 140,
           "name": "Costruzione 203",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "203"
@@ -1317,8 +1327,8 @@
           "id": 141,
           "name": "Costruzione 204",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "204"
@@ -1327,8 +1337,8 @@
           "id": 142,
           "name": "Costruzione 205",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "205"
@@ -1337,8 +1347,8 @@
           "id": 143,
           "name": "Costruzione 207",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Costruire con aule o laboratori.",
           "building": "207"
@@ -1347,8 +1357,8 @@
           "id": 144,
           "name": "Costruzione 301",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 50
           },
           "description": "Costruire con aule o laboratori.",
           "building": "301"
@@ -1357,8 +1367,8 @@
           "id": 145,
           "name": "Costruzione 302",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 50
           },
           "description": "Costruire con aule o laboratori.",
           "building": "302"
@@ -1367,8 +1377,8 @@
           "id": 146,
           "name": "Costruzione 303",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 50
           },
           "description": "Costruire con aule o laboratori.",
           "building": "303"
@@ -1377,8 +1387,8 @@
           "id": 147,
           "name": "Costruzione 304",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 50
           },
           "description": "Costruire con aule o laboratori.",
           "building": "304"
@@ -1387,8 +1397,8 @@
           "id": 148,
           "name": "Costruzione 305",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 50
           },
           "description": "Costruire con aule o laboratori.",
           "building": "305"
@@ -1397,8 +1407,8 @@
           "id": 149,
           "name": "Costruzione 306",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 300,
+            "y": 500
           },
           "description": "Costruire con aule o laboratori.",
           "building": "306"
@@ -1412,28 +1422,28 @@
           "id": 151,
           "name": "Giardino delle generazioni",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 620
           },
           "description": "",
-          "building": "N/A"
+          "building": "JG"
         },
         {
           "id": 152,
           "name": "Audiorama",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 390,
+            "y": 850
           },
           "description": "",
-          "building": "N/A"
+          "building": "AU"
         },
         {
           "id": 153,
           "name": "Velaria",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "",
           "building": "9"
@@ -1442,38 +1452,38 @@
           "id": 154,
           "name": "Mezquitera",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "",
-          "building": "N/A"
+          "building": "MZ"
         },
         {
           "id": 155,
           "name": "Università Sports Unit \"Profesor Enrique Olivares Santana\"",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 700,
+            "y": 160
           },
           "description": "",
-          "building": "N/A"
+          "building": "UD"
         },
         {
           "id": 151,
           "name": "Giardino botanico",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 510,
+            "y": 30
           },
           "description": "",
-          "building": "N/A"
+          "building": "JB"
         },
         {
           "id": 35,
           "name": "Caffetteria del nord",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 410
           },
           "description": "Stabilimento per comprare cibo e bevande.",
           "building": "122"
@@ -1482,8 +1492,8 @@
           "id": 54,
           "name": "Caffetteria da sud",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 180,
+            "y": 510
           },
           "description": "Stabilimento per comprare cibo e bevande.",
           "building": "210"
@@ -1492,8 +1502,8 @@
           "id": 22,
           "name": "Caffetteria da est",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 540,
+            "y": 850
           },
           "description": "Stabilimento per comprare cibo e bevande.",
           "building": "9"
@@ -1502,8 +1512,8 @@
           "id": 23,
           "name": "Caffetteria da ovest",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 570,
+            "y": 510
           },
           "description": "Stabilimento per comprare cibo e bevande.",
           "building": "47"
@@ -1512,11 +1522,11 @@
           "id": 36,
           "name": "Caffetteria Biomédicas",
           "coordinates": {
-            "x": 0,
-            "y": 0
+            "x": 1200,
+            "y": 850
           },
           "description": "Stabilimento per comprare cibo e bevande.",
-          "building": "104C"
+          "building": "104"
         }
       ]
     }
