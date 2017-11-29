@@ -32,6 +32,10 @@
                 results: {
                     type: Array,
                     value: []
+                },
+                imgSource: {
+                    type: String,
+                    value: 'default'
                 }
             };
         }
@@ -40,9 +44,6 @@
             super.connectedCallback();
             this.$.ironAjax.generateRequest();
             this.$.languageService.generateRequest();
-            setTimeout(() => {
-                this.$.containerMap.scroll(540,620);
-            }, 500);
         }
 
         handleResponse() {
@@ -95,11 +96,9 @@
             let px = event.target.getAttribute('data-px');
             let py = event.target.getAttribute('data-py');
             let img = event.target.getAttribute('data-img');
-            this.$.map.innerHTML = "<img src='./assets/img/map/map_"+img+".svg' height='200%' width='auto' />";
+            this.set('imgSource', img);
             this.$.drawer.close();
-            setTimeout(() => {
-                this.$.containerMap.scroll(px,py);
-            }, 500);
+            this.$.containerMap.scroll(px,py);
         }
 
         searchPlaces(){
@@ -108,7 +107,7 @@
             let i = 0;
             p = p.toLowerCase();
             p = p.replace(/[^a-zA-Z0-9]/g, '');
-            if(p != "") {
+            if(p !== '') {
                 this.$.drawer.open();
                 this.$.results.style.display = 'block';
                 this.$.principal.style.display = 'none';
