@@ -17,9 +17,13 @@
 <link rel="import" href="../../bower_components/iron-input/iron-input.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
 <link rel="import" href="../../bower_components/paper-fab/paper-fab.html">
-
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
+
+<link rel="import" href="../../bower_components/paper-dialog/paper-dialog.html">
+<link rel="import" href="../../bower_components/neon-animation/web-animations.html">
+<link rel="import" href="../../bower_components/neon-animation/animations/scale-up-animation.html">
+<link rel="import" href="../../bower_components/neon-animation/animations/fade-out-animation.html">
 
 <link rel="import" href="./iuaa-app-icons.html">
 <link rel="import" href="./iuaa-app-styles.html">
@@ -111,22 +115,24 @@
                     <app-toolbar class="header">
                         <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
                         &nbsp;&nbsp;&nbsp;
-                        <iron-input>
-                            <input type="search" id="placesForm" class="searchfield"
-                                   placeholder="[[labels.inputLabelSearch]]">
-                        </iron-input>
+                        <input type="search" id="placesForm" class="searchfield"
+                               placeholder="[[labels.inputLabelSearch]]">
                         &nbsp;&nbsp;&nbsp;
                         <paper-icon-button icon="iuaa-icons:search" on-tap="searchPlaces"></paper-icon-button>
                     </app-toolbar>
                 </app-header>
                 <div id="map" style="height: 100%; position: relative;">
                     <img src$="./assets/img/map/map_[[imgSource]].svg" height="200%" width="auto"/>
-                    <div class="paper-fab-container">
-                        <paper-fab icon="iuaa-icons:info"></paper-fab>
-                    </div>
                 </div>
             </app-header-layout>
         </app-drawer-layout>
+        <div class="paper-fab-container">
+            <paper-fab icon="iuaa-icons:info" on-tap="showPlaceInfo"></paper-fab>
+        </div>
+        <paper-dialog id="modal" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
+            <h2>[[placeSelected.name]]</h2>
+            <p>[[placeSelected.description]]</p>
+        </paper-dialog>
     </template>
 
     <script src="./iuaa-app.js"></script>
