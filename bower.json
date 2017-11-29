@@ -15,7 +15,8 @@
     "paper-listbox": "PolymerElements/paper-listbox#2.0.0",
     "paper-card": "PolymerElements/paper-card#2.0.0",
     "paper-item": "PolymerElements/paper-item#2.0.0",
-    "iron-input": "PolymerElements/iron-input#2.0.1"
+    "iron-input": "PolymerElements/iron-input#2.0.1",
+    "paper-fab": "PolymerElements/paper-fab#2.0.0"
   },
   "devDependencies": {
     "web-component-tester": "Polymer/web-component-tester#6.0.0",

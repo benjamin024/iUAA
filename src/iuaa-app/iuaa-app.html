@@ -16,6 +16,7 @@
 <link rel="import" href="../../bower_components/paper-item/paper-item.html">
 <link rel="import" href="../../bower_components/iron-input/iron-input.html">
 <link rel="import" href="../../bower_components/iron-icon/iron-icon.html">
+<link rel="import" href="../../bower_components/paper-fab/paper-fab.html">
 
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
@@ -46,8 +47,11 @@
                 <div class="drawer-container">
                     <div class="drawer-header">
                         <br>
-                        <app-toolbar><img src="./assets/img/logo.png" width="60px" height="60px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<h1>
-                            iUAA</h1></app-toolbar>
+                        <app-toolbar><img src="./assets/img/logo.png" width="60px" height="60px">
+                            <h1>
+                                iUAA
+                            </h1>
+                        </app-toolbar>
                         <br>
                         <div id="principal">
                             <template is="dom-repeat" items="[[areas]]" as="area" id="areaList">
@@ -65,44 +69,61 @@
                     <iron-collapse id="collapse">
                         <paper-linkbox>
                             <template is="dom-repeat" items="[[places]]" as="place">
-                                <paper-item  on-tap="updateMapPosition"  data-px$="[[place.coordinates.x]]" data-py$="[[place.coordinates.y]]" data-img$="[[place.building]]">[[place.name]]</paper-item>
+                                <paper-item on-tap="updateMapPosition" data-px$="[[place.coordinates.x]]"
+                                            data-py$="[[place.coordinates.y]]" data-img$="[[place.building]]">
+                                    [[place.name]]
+                                </paper-item>
                                 <br>
                             </template>
                         </paper-linkbox>
                     </iron-collapse>
                     <div id="results" hidden>
-                        <paper-item class="listelement" on-tap="backToPrincipal"><h3>🠤&nbsp;&nbsp;&nbsp;&nbsp;[[labels.results]]</h3></paper-item>
+                        <paper-item class="listelement" on-tap="backToPrincipal"><h3>🠤&nbsp;&nbsp;&nbsp;&nbsp;[[labels.results]]</h3>
+                        </paper-item>
                         <template is="dom-repeat" items="[[results]]" as="result">
-                            <paper-item  on-tap="updateMapPosition"  data-px$="[[result.coordinates.x]]" data-py$="[[result.coordinates.y]]" data-img$="[[result.building]]">[[result.name]]</paper-item>
+                            <paper-item on-tap="updateMapPosition" data-px$="[[result.coordinates.x]]"
+                                        data-py$="[[result.coordinates.y]]" data-img$="[[result.building]]">
+                                [[result.name]]
+                            </paper-item>
                             <br>
                         </template>
                     </div>
                 </div>
                 <div class$="[[collapseOpenedClass]] languages">
-                    <paper-icon-button src="./assets/img/spanish.png" on-tap="changeLanguage" data-lang="es" id="es"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/english.png" on-tap="changeLanguage" data-lang="en" id="en"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/french.png" on-tap="changeLanguage" data-lang="fr" id ="fr"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/portuguese.png" on-tap="changeLanguage" data-lang="pt" id="pt"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/german.png" on-tap="changeLanguage" data-lang="de" id ="de"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/italian.png" on-tap="changeLanguage" data-lang="it" id="it"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/languages/spanish.png" on-tap="changeLanguage" data-lang="es"
+                                       id="es"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/languages/english.png" on-tap="changeLanguage" data-lang="en"
+                                       id="en"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/languages/french.png" on-tap="changeLanguage" data-lang="fr"
+                                       id="fr"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/languages/portuguese.png" on-tap="changeLanguage"
+                                       data-lang="pt" id="pt"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/languages/german.png" on-tap="changeLanguage" data-lang="de"
+                                       id="de"></paper-icon-button>
+                    <paper-icon-button src="./assets/img/languages/italian.png" on-tap="changeLanguage" data-lang="it"
+                                       id="it"></paper-icon-button>
                 </div>
             </app-drawer>
 
             <!-- Main content -->
             <app-header-layout has-scrolling-region>
-                <app-header slot="header" condenses fixed reveals effects="waterfall"  id="containerMap">
+                <app-header slot="header" condenses fixed reveals effects="waterfall" id="containerMap">
                     <app-toolbar class="header">
                         <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
                         &nbsp;&nbsp;&nbsp;
                         <iron-input>
-                            <input type="search" id="placesForm" class="searchfield" placeholder="[[labels.inputLabelSearch]]">
+                            <input type="search" id="placesForm" class="searchfield"
+                                   placeholder="[[labels.inputLabelSearch]]">
                         </iron-input>
                         &nbsp;&nbsp;&nbsp;
                         <paper-icon-button icon="iuaa-icons:search" on-tap="searchPlaces"></paper-icon-button>
                     </app-toolbar>
                 </app-header>
-                <div id="map" style="height: 100%">
-                    <img src="../../assets/map.svg" height="200%" width="auto" />
+                <div id="map" style="height: 100%; position: relative;">
+                    <img src$="./assets/img/map/map_[[imgSource]].svg" height="200%" width="auto"/>
+                    <div class="paper-fab-container">
+                        <paper-fab icon="iuaa-icons:info"></paper-fab>
+                    </div>
                 </div>
             </app-header-layout>
         </app-drawer-layout>
