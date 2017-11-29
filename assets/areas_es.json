@@ -91,7 +91,7 @@
             "y": 850
           },
           "description": "Proyecto enfocado a las artes plásticas en general. Reconocidos artistas dan a conocer sus obras de escultura, pintura, gráfica, arte objeto, fotografía, entre otros.",
-          "building": "1-B"
+          "building": "1B"
         },
         {
           "id": 10,
@@ -121,7 +121,7 @@
             "y": 850
           },
           "description": "Ventanillas para realizar cualquier tipo de trámite académico y cajas para realizar pago de servicios.",
-          "building": "1-A"
+          "building": "1A"
         },
         {
           "id": 11,
@@ -426,7 +426,7 @@
             "y": 160
           },
           "description": "Reinagurado en 2016, el poliforum ha sido renovado, modernizado, ampliado y rehabilitado por completo en su infraestructura, instalaciones y equipamiento para la práctica del deporte, el fomento de las artes y la cultura, y la convivencia comunitaria",
-          "building": "133C"
+          "building": "133"
         },
         {
           "id": 48,
@@ -1526,7 +1526,7 @@
             "y": 850
           },
           "description": "Establecimiento para comprar alimentos y bebidas.",
-          "building": "104C"
+          "building": "104"
         }
       ]
     }

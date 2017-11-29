@@ -91,7 +91,7 @@
             "y": 850
           },
           "description": "Projekt konzentrierte sich auf die bildende Kunst im Allgemeinen. Renommierte Künstler präsentieren ua ihre Skulpturen, Malerei, Grafik, Objektkunst, Fotografie.",
-          "building": "1-B"
+          "building": "1B"
         },
         {
           "id": 10,
@@ -121,7 +121,7 @@
             "y": 850
           },
           "description": "Unterstützen Sie Fenster, um jede Art von akademischen Verfahren und Kästchen für Dienstleistungen zu bezahlen.",
-          "building": "1-A"
+          "building": "1A"
         },
         {
           "id": 11,
@@ -426,7 +426,7 @@
             "y": 160
           },
           "description": "Das 2016 eröffnete Poliforum wurde in seiner Infrastruktur, Ausstattung und Ausstattung für Sport, Kunst- und Kulturförderung und Gemeinschaftskoexistenz renoviert, modernisiert, erweitert und vollständig saniert.",
-          "building": "133C"
+          "building": "133"
         },
         {
           "id": 48,
@@ -1526,7 +1526,7 @@
             "y": 850
           },
           "description": "Einrichtung zum Kauf von Speisen und Getränken.",
-          "building": "104C"
+          "building": "104"
         }
       ]
     }

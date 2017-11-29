@@ -91,7 +91,7 @@
             "y": 850
           },
           "description": "Project focused on the plastic arts in general. Renowned artists present their works of sculpture, painting, graphics, object art, photography, among others.",
-          "building": "1-B"
+          "building": "1B"
         },
         {
           "id": 10,
@@ -121,7 +121,7 @@
             "y": 850
           },
           "description": "Windows for service to carry out any kind of academic procedure and cash registers to pay for services.",
-          "building": "1-A"
+          "building": "1A"
         },
         {
           "id": 11,
@@ -426,7 +426,7 @@
             "y": 160
           },
           "description": "Inaugurated in 2016, the poliforum has been renovated, modernized, expanded and completely rehabilitated in its infrastructure, facilities and equipment for the practice of sports, the promotion of arts and culture, and community coexistence.",
-          "building": "133C"
+          "building": "133"
         },
         {
           "id": 48,
@@ -1526,7 +1526,7 @@
             "y": 850
           },
           "description": "Establishment to buy food and drinks.",
-          "building": "104C"
+          "building": "104"
         }
       ]
     }
