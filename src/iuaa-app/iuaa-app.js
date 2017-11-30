@@ -1,7 +1,7 @@
 (function (customElements) {
     'use strict';
 
-    class IUAAApp extends Polymer.Element {
+    class IUAAApp extends Polymer.GestureEventListeners(Polymer.Element) {
         static get is() {
             return 'iuaa-app';
         }
@@ -33,16 +33,9 @@
                     type: Array,
                     value: []
                 },
-                imgSource: {
-                    type: String,
-                    value: 'default'
-                },
-                placeSelected: {
+                market: {
                     type: Object,
-                    value: {
-                        name: 'iUAA',
-                        description: ''
-                    }
+                    value: {}
                 }
             };
         }
@@ -51,18 +44,6 @@
             super.connectedCallback();
             this.$.ironAjax.generateRequest();
             this.$.languageService.generateRequest();
-
-            let map = L.map(this.$.map, {
-                bounceAtZoomLimits: false
-            }).setView([51.505, -0.09], 13);
-
-            L.tileLayer('./assets/map_default.svg', {
-                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-            }).addTo(map);
-
-            L.marker([51.5, -0.09]).addTo(map)
-                .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-                .openPopup();
         }
 
         handleResponse() {
@@ -109,16 +90,6 @@
         renderLanguage() {
             let response = this.$.languageService.lastResponse;
             this.set('labels', response);
-        }
-
-        updateMapPosition(event) {
-            this.set('placeSelected', event.model.place);
-            let px = event.target.getAttribute('data-px');
-            let py = event.target.getAttribute('data-py');
-            let img = event.target.getAttribute('data-img');
-            this.set('imgSource', img);
-            this.$.drawer.close();
-            this.$.containerMap.scroll(px, py);
         }
 
         searchPlaces() {
@@ -168,8 +139,9 @@
             this.set('results', []);
         }
 
-        showPlaceInfo() {
-            this.$.modal.open();
+        pin(event) {
+            this.$.drawer.close();
+            this.set('market', event.model.place.coordinates);
         }
     }
 

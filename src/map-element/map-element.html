@@ -1,0 +1,126 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/polymer/lib/mixins/gesture-event-listeners.html">
+
+<dom-module id="map-element">
+    <template>
+        <canvas id="map" width="500px" height="600px" style="border:1px solid grey;" on-track="handleTrack">
+            Tu navegador no soporta canvas.
+        </canvas>
+    </template>
+
+    <script>
+        'use strict';
+        (function MapDefinition(window) {
+            /**
+             * @customElement
+             * @polymer
+             */
+            class MapElement extends Polymer.GestureEventListeners(Polymer.Element) {
+                static get is() {
+                    return 'map-element';
+                }
+                static get properties() {
+                    return {
+                        context: {
+                            type: Object,
+                            value: {}
+                        },
+                        size: {
+                            type: Object,
+                            value: {
+                                width: 1172,
+                                height: 1110
+                            }
+                        },
+                        position: {
+                            type: Object,
+                            value: {
+                                x: -400,
+                                y: -400
+                            }
+                        },
+                        marketInit: {
+                            type: Object,
+                            value: {
+                                x: undefined,
+                                y: undefined
+                            }
+                        },
+                        marketTarget: {
+                            type: Object,
+                            value: {
+                                x: undefined,
+                                y: undefined
+                            }
+                        },
+                        market: {
+                            type: Object,
+                            observer: 'pin'
+                        },
+                        layer: {
+                            type: String,
+                            value: ''
+                        }
+                    };
+                }
+                connectedCallback() {
+                    super.connectedCallback();
+                    this.__initCanvas();
+                }
+                // Move methods
+                pin() {
+                    this.set('marketTarget.x', this.market.x);
+                    this.set('marketTarget.y', this.market.y);
+                    this.__renderImage();
+                }
+                drawTarget(x, y) {
+                    this.context.beginPath();
+                    this.context.arc(x, y, 20, 0, (Math.PI * 2), true);
+                    this.context.strokeStyle = '#f00';
+                    this.context.lineWidth = 3;
+                    this.context.stroke();
+                    this.context.closePath();
+                    this.context.beginPath();
+                    this.context.arc(x, y, 5, 0, (Math.PI * 2), true);
+                    this.context.strokeStyle = '#ff8800';
+                    this.context.lineWidth = 3;
+                    this.context.stroke();
+                    this.context.closePath();
+                }
+                handleTrack(event) {
+                    let positionX = this.position.x + event.detail.dx;
+                    let positionY = this.position.y + event.detail.dy;
+                    if (positionX <= 0 && positionX >= -680 && positionY <= 0 && positionY >= -500) {
+                        switch (event.detail.state) {
+                            case 'track':
+                                this.set('position.x', positionX);
+                                this.set('position.y', positionY);
+                                this.set('marketTarget.x', Number(this.marketTarget.x) + event.detail.dx);
+                                this.set('marketTarget.y', Number(this.marketTarget.y) + event.detail.dy);
+                                this.__renderImage();
+                                break;
+                        }
+                    }
+                }
+                // Protected methods
+                __initCanvas() {
+                    let canvas = this.$.map;
+                    this.set('context', canvas.getContext('2d'));
+                    this.__renderImage(this.position.x, this.position.y, this.size.width, this.size.height);
+                }
+                __renderImage() {
+                    this.$.map.width = this.$.map.width;
+                    let imageObj = new Image();
+                    imageObj.src = this.layer;
+                    imageObj.onload = () => {
+                        this.context.drawImage(imageObj, this.position.x, this.position.y, this.size.width, this.size.height);
+                        if (this.marketTarget.x !== undefined && this.marketTarget.y !== undefined) {
+                            this.drawTarget(this.marketTarget.x, this.marketTarget.y);
+                        }
+                    }
+                }
+            }
+            window.customElements.define(MapElement.is, MapElement);
+        })(window);
+    </script>
+</dom-module>
