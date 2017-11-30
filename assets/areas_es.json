@@ -7,8 +7,8 @@
           "id": 1,
           "name": "Rectoría",
           "coordinates": {
-            "x": 120,
-            "y": 850
+            "x": "150",
+            "y": "530"
           },
           "description": "El rector es la máxima autoridad y representante legal de la institución. Dirige, coordina y controla las actividades de todas las dependencias de la universidad.",
           "building": "EAA"
@@ -17,8 +17,8 @@
           "id": 2,
           "name": "Secretaría General",
           "coordinates": {
-            "x": 540,
-            "y": 850
+            "x": "150",
+            "y": "530"
           },
           "description": "La Secretaría General tiene como propósito apoyar a la Rectoría en la representación, coordinación y seguimiento de los asuntos administrativos, académicos y técnicos que le sean delegados, brindando un servicio y gestión de calidad, que contribuya a la generación de las condiciones necesarias para el desempeño de las funciones de nuestra Casa de Estudios.",
           "building": "1"

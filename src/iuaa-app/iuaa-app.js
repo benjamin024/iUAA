@@ -1,7 +1,7 @@
 (function (customElements) {
     'use strict';
 
-    class IUAAApp extends Polymer.Element {
+    class IUAAApp extends Polymer.GestureEventListeners(Polymer.Element) {
         static get is() {
             return 'iuaa-app';
         }
@@ -33,16 +33,9 @@
                     type: Array,
                     value: []
                 },
-                imgSource: {
-                    type: String,
-                    value: 'default'
-                },
-                placeSelected: {
+                market: {
                     type: Object,
-                    value: {
-                        name: 'iUAA',
-                        description: ''
-                    }
+                    value: {}
                 }
             };
         }
@@ -99,16 +92,6 @@
             this.set('labels', response);
         }
 
-        updateMapPosition(event) {
-            this.set('placeSelected', event.model.place);
-            let px = event.target.getAttribute('data-px');
-            let py = event.target.getAttribute('data-py');
-            let img = event.target.getAttribute('data-img');
-            this.set('imgSource', img);
-            this.$.drawer.close();
-            this.$.containerMap.scroll(px, py);
-        }
-
         searchPlaces() {
             let p = this.$.placesForm.value;
             let auxArray = new Array();
@@ -156,8 +139,9 @@
             this.set('results', []);
         }
 
-        showPlaceInfo() {
-            this.$.modal.open();
+        pin(event) {
+            this.$.drawer.close();
+            this.set('market', event.model.place.coordinates);
         }
     }
 

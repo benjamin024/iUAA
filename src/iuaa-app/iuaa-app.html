@@ -1,5 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/polymer/lib/elements/dom-repeat.html">
+<link rel="import" href="../../bower_components/polymer/lib/mixins/gesture-event-listeners.html">
 
 <link rel="import" href="../../bower_components/app-layout/app-drawer/app-drawer.html">
 <link rel="import" href="../../bower_components/app-layout/app-drawer-layout/app-drawer-layout.html">
@@ -20,119 +21,104 @@
 <link rel="import" href="../../bower_components/paper-icon-button/paper-icon-button.html">
 <link rel="import" href="../../bower_components/iron-ajax/iron-ajax.html">
 
-<link rel="import" href="../../bower_components/paper-dialog/paper-dialog.html">
-<link rel="import" href="../../bower_components/neon-animation/web-animations.html">
-<link rel="import" href="../../bower_components/neon-animation/animations/scale-up-animation.html">
-<link rel="import" href="../../bower_components/neon-animation/animations/fade-out-animation.html">
-
 <link rel="import" href="./iuaa-app-icons.html">
 <link rel="import" href="./iuaa-app-styles.html">
+<link rel="import" href="../map-element/map-element.html">
 
 <dom-module id="iuaa-app">
     <template>
         <style include="iuaa-app-styles"></style>
-        <iron-ajax
-                id="ironAjax"
-                url="./assets/areas_[[language]].json"
-                handle-as="json"
-                on-response="handleResponse"
-                debounce-duration="300">
-        </iron-ajax>
-        <iron-ajax
-                id="languageService"
-                url="./locales/[[language]].json"
-                handle-as="json"
-                on-response="renderLanguage"
-                debounce-duration="300">
-        </iron-ajax>
-        <app-drawer-layout fullbleed narrow="{{narrow}}">
-            <!-- Drawer content -->
-            <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
-                <div class="drawer-container">
-                    <div class="drawer-header">
-                        <br>
-                        <app-toolbar><img src="./assets/img/logo.png" width="60px" height="60px">
-                            <h1>
-                                iUAA
-                            </h1>
-                        </app-toolbar>
-                        <br>
-                        <div id="principal">
-                            <template is="dom-repeat" items="[[areas]]" as="area" id="areaList">
-                                <paper-button on-tap="toggle" class$="[[area.customClass]] listelement"
-                                              data-item$="[[area.places]]">
-                                    [[area.name]]
-                                </paper-button>
-                            </template>
-                            <a href="http://www.uaa.mx/principal/directorio.html" target="_blank"
-                               class$="[[collapseOpenedClass]]" id="directoryM">
-                                <paper-button class="listelement">[[labels.contacts]]</paper-button>
-                            </a>
+        <div id="container">
+            <iron-ajax
+                    id="ironAjax"
+                    url="./assets/areas_[[language]].json"
+                    handle-as="json"
+                    on-response="handleResponse"
+                    debounce-duration="300">
+            </iron-ajax>
+            <iron-ajax
+                    id="languageService"
+                    url="./locales/[[language]].json"
+                    handle-as="json"
+                    on-response="renderLanguage"
+                    debounce-duration="300">
+            </iron-ajax>
+            <app-drawer-layout fullbleed narrow="{{narrow}}">
+                <!-- Drawer content -->
+                <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
+                    <div class="drawer-container">
+                        <div class="drawer-header">
+                            <br>
+                            <app-toolbar><img src="./assets/img/logo.png" width="60px" height="60px">
+                                <h1>
+                                    iUAA
+                                </h1>
+                            </app-toolbar>
+                            <br>
+                            <div id="principal">
+                                <template is="dom-repeat" items="[[areas]]" as="area" id="areaList">
+                                    <paper-button on-tap="toggle" class$="[[area.customClass]] listelement"
+                                                  data-item$="[[area.places]]">
+                                        [[area.name]]
+                                    </paper-button>
+                                </template>
+                                <a href="http://www.uaa.mx/principal/directorio.html" target="_blank"
+                                   class$="[[collapseOpenedClass]]" id="directoryM">
+                                    <paper-button class="listelement">[[labels.contacts]]</paper-button>
+                                </a>
+                            </div>
                         </div>
-                    </div>
-                    <iron-collapse id="collapse">
-                        <paper-linkbox>
-                            <template is="dom-repeat" items="[[places]]" as="place">
-                                <paper-item on-tap="updateMapPosition" data-px$="[[place.coordinates.x]]"
-                                            data-py$="[[place.coordinates.y]]" data-img$="[[place.building]]">
-                                    [[place.name]]
+                        <iron-collapse id="collapse">
+                            <paper-linkbox>
+                                <template is="dom-repeat" items="[[places]]" as="place">
+                                    <paper-item on-tap="pin">
+                                        [[place.name]]
+                                    </paper-item>
+                                    <br>
+                                </template>
+                            </paper-linkbox>
+                        </iron-collapse>
+                        <div id="results" hidden>
+                            <paper-item class="listelement" on-tap="backToPrincipal"><h3>🠤&nbsp;&nbsp;&nbsp;&nbsp;[[labels.results]]</h3>
+                            </paper-item>
+                            <template is="dom-repeat" items="[[results]]" as="result">
+                                <paper-item on-tap="pin">
+                                    [[result.name]]
                                 </paper-item>
                                 <br>
                             </template>
-                        </paper-linkbox>
-                    </iron-collapse>
-                    <div id="results" hidden>
-                        <paper-item class="listelement" on-tap="backToPrincipal"><h3>🠤&nbsp;&nbsp;&nbsp;&nbsp;[[labels.results]]</h3>
-                        </paper-item>
-                        <template is="dom-repeat" items="[[results]]" as="result">
-                            <paper-item on-tap="updateMapPosition" data-px$="[[result.coordinates.x]]"
-                                        data-py$="[[result.coordinates.y]]" data-img$="[[result.building]]">
-                                [[result.name]]
-                            </paper-item>
-                            <br>
-                        </template>
+                        </div>
                     </div>
-                </div>
-                <div class$="[[collapseOpenedClass]] languages">
-                    <paper-icon-button src="./assets/img/languages/spanish.png" on-tap="changeLanguage" data-lang="es"
-                                       id="es"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/languages/english.png" on-tap="changeLanguage" data-lang="en"
-                                       id="en"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/languages/french.png" on-tap="changeLanguage" data-lang="fr"
-                                       id="fr"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/languages/portuguese.png" on-tap="changeLanguage"
-                                       data-lang="pt" id="pt"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/languages/german.png" on-tap="changeLanguage" data-lang="de"
-                                       id="de"></paper-icon-button>
-                    <paper-icon-button src="./assets/img/languages/italian.png" on-tap="changeLanguage" data-lang="it"
-                                       id="it"></paper-icon-button>
-                </div>
-            </app-drawer>
+                    <div class$="[[collapseOpenedClass]] languages">
+                        <paper-icon-button src="./assets/img/languages/spanish.png" on-tap="changeLanguage" data-lang="es"
+                                           id="es"></paper-icon-button>
+                        <paper-icon-button src="./assets/img/languages/english.png" on-tap="changeLanguage" data-lang="en"
+                                           id="en"></paper-icon-button>
+                        <paper-icon-button src="./assets/img/languages/french.png" on-tap="changeLanguage" data-lang="fr"
+                                           id="fr"></paper-icon-button>
+                        <paper-icon-button src="./assets/img/languages/portuguese.png" on-tap="changeLanguage"
+                                           data-lang="pt" id="pt"></paper-icon-button>
+                        <paper-icon-button src="./assets/img/languages/german.png" on-tap="changeLanguage" data-lang="de"
+                                           id="de"></paper-icon-button>
+                        <paper-icon-button src="./assets/img/languages/italian.png" on-tap="changeLanguage" data-lang="it"
+                                           id="it"></paper-icon-button>
+                    </div>
+                </app-drawer>
 
-            <!-- Main content -->
-            <app-header-layout has-scrolling-region>
-                <app-header slot="header" condenses fixed reveals effects="waterfall" id="containerMap">
-                    <app-toolbar class="header">
-                        <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
-                        &nbsp;&nbsp;&nbsp;
-                        <input type="search" id="placesForm" class="searchfield"
-                               placeholder="[[labels.inputLabelSearch]]">
-                        &nbsp;&nbsp;&nbsp;
-                        <paper-icon-button icon="iuaa-icons:search" on-tap="searchPlaces"></paper-icon-button>
-                    </app-toolbar>
-                </app-header>
-                <div id="map" style="height: 100%; position: relative;">
-                    <img src$="./assets/img/map/map_[[imgSource]].svg" height="200%" width="auto"/>
-                </div>
-            </app-header-layout>
-        </app-drawer-layout>
-        <div class="paper-fab-container">
-            <paper-fab icon="iuaa-icons:info" on-tap="showPlaceInfo"></paper-fab>
+                <!-- Main content -->
+                <app-header-layout has-scrolling-region>
+                    <app-header slot="header" condenses fixed reveals effects="waterfall" id="containerMap">
+                        <app-toolbar class="header">
+                            <paper-icon-button icon="iuaa-icons:menu" drawer-toggle></paper-icon-button>
+                            <input type="search" name="places" class="searchfield"
+                                   placeholder="[[labels.inputLabelSearch]]">
+                            <paper-icon-button icon="iuaa-icons:search" on-tap="searchPlaces"></paper-icon-button>
+                        </app-toolbar>
+                    </app-header>
+                    <map-element market="[[market]]" layer="./assets/img/map.svg"></map-element>
+                </app-header-layout>
+            </app-drawer-layout>
         </div>
-        <paper-dialog id="modal" entry-animation="scale-up-animation" exit-animation="fade-out-animation" with-backdrop>
-            <h2>[[placeSelected.name]]</h2>
-            <p>[[placeSelected.description]]</p>
-        </paper-dialog>
     </template>
 
     <script src="./iuaa-app.js"></script>
